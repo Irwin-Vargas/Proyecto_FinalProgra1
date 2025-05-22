@@ -33,7 +33,7 @@ namespace Proyecto_FinalProgra1.Models
         public Stock? Stock { get; set; }
 
         [NotMapped]
-        public string CategoryName { get; set; }
+        public string? CategoryName { get; set; }
 
         [NotMapped]
         public int Quantity { get; set; }

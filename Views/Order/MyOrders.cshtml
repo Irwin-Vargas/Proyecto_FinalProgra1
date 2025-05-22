@@ -1,0 +1,41 @@
+@model IEnumerable<Proyecto_FinalProgra1.Models.Order>
+@{
+    ViewData["Title"] = "Mis Pedidos";
+}
+
+<h2 class="text-primary">Mis Pedidos</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">No has realizado ningún pedido aún.</div>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Nombre</th>
+                <th>Dirección</th>
+                <th>Método de Pago</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CreateDate.ToLocalTime().ToString("g")</td>
+                <td>@item.Name</td>
+                <td>@item.Address</td>
+                <td>@item.PaymentMethod</td>
+                <td>@item.OrderStatus?.StatusName</td>
+            </tr>
+            <td>
+                <a asp-controller="Order" asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Ver detalle</a>
+            </td>
+
+        }
+        </tbody>
+    </table>
+}
