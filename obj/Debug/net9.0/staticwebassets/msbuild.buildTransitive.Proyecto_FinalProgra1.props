@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Proyecto_FinalProgra1.props" />
+</Project>
