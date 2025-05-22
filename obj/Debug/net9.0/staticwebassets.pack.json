@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Universidad\\Semestre 6\\Programacion 1\\Nueva carpeta (2)\\Proyecto_FinalProgra1\\wwwroot\\images\\53eb554c-12f1-4682-8d1b-df7ac8db4945.jpeg",
+      "PackagePath": "staticwebassets\\images\\53eb554c-12f1-4682-8d1b-df7ac8db4945.jpeg"
+    },
+    {
+      "Id": "D:\\Universidad\\Semestre 6\\Programacion 1\\Nueva carpeta (2)\\Proyecto_FinalProgra1\\wwwroot\\images\\7143d15f-82c3-4338-aa7d-e571149d3259.png",
+      "PackagePath": "staticwebassets\\images\\7143d15f-82c3-4338-aa7d-e571149d3259.png"
+    },
+    {
       "Id": "D:\\Universidad\\Semestre 6\\Programacion 1\\Nueva carpeta (2)\\Proyecto_FinalProgra1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

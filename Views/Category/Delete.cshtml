@@ -1,0 +1,18 @@
+@model Proyecto_FinalProgra1.Models.Category
+
+@{
+    ViewData["Title"] = "Eliminar Categoría";
+}
+
+<h2 class="text-danger">¿Estás seguro que querés eliminar esta categoría?</h2>
+
+<div class="mb-3">
+    <label class="form-label">Nombre:</label>
+    <p class="form-control-plaintext">@Model.CategoryName</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

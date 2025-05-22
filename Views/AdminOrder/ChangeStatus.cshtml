@@ -1,0 +1,16 @@
+@model Proyecto_FinalProgra1.Models.Order
+@{
+    ViewData["Title"] = "Cambiar Estado del Pedido";
+}
+
+<h2>Cambiar Estado - Pedido #@Model.Id</h2>
+
+<form asp-action="ChangeStatus" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <div class="mb-3">
+        <label class="form-label">Nuevo Estado</label>
+        <select name="statusId" class="form-select" asp-items="ViewBag.StatusList"></select>
+    </div>
+    <button type="submit" class="btn btn-success">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
