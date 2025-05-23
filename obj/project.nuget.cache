@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JcQX8yjXTJU=",
+  "dgSpecHash": "GBNN2P5MRn0=",
   "success": true,
-  "projectFilePath": "D:\\Universidad\\Semestre 6\\Programacion 1\\Nueva carpeta (2)\\Proyecto_FinalProgra1\\Proyecto_FinalProgra1.csproj",
+  "projectFilePath": "D:\\Universidad\\Semestre 6\\Programacion 1\\Nueva carpeta (3)\\Proyecto_FinalProgra1\\Proyecto_FinalProgra1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vilca\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\vilca\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
