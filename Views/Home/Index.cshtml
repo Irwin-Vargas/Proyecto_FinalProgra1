@@ -1,8 +1,71 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    .hero {
+        background: linear-gradient(135deg, #ff4e00, #ec9f05);
+        color: white;
+        padding: 4rem 2rem;
+        text-align: center;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .features {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .feature-box {
+        background-color: white;
+        color: #b30000;
+        border: 2px solid #ffd700;
+        border-radius: 1rem;
+        padding: 2rem;
+        text-align: center;
+        width: 280px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature-box h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .feature-box p {
+        font-size: 1rem;
+    }
+</style>
+
+<div class="hero">
+    <h1>¡Bienvenido a LA PERUCHA!</h1>
+    <p>Comida rápida, deliciosa y al instante. ¡Haz tu pedido ahora!</p>
+</div>
+
+<div class="features">
+    <div class="feature-box">
+        <h3>🍔 Menú Variado</h3>
+        <p>Disfruta de hamburguesas, papas, combos y más.</p>
+    </div>
+    <div class="feature-box">
+        <h3>🚀 Entrega Rápida</h3>
+        <p>Tu pedido listo en minutos, directo a tu puerta.</p>
+    </div>
+    <div class="feature-box">
+        <h3>💳 Pago Seguro</h3>
+        <p>Aceptamos tarjetas, billeteras digitales y más.</p>
+    </div>
 </div>
