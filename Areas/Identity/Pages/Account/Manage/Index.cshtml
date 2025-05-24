@@ -5,24 +5,76 @@
     ViewData["ActivePage"] = ManageNavPages.Index;
 }
 
+<style>
+    body {
+        background: linear-gradient(135deg, #ffe259, #ffa751);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 2rem;
+    }
+
+    h3 {
+        color: #b30000;
+        text-align: center;
+        margin-bottom: 2rem;
+        font-weight: bold;
+    }
+
+    .profile-card {
+        background-color: white;
+        border-radius: 1rem;
+        padding: 2rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        border: 2px solid #ffcc00;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .form-floating input {
+        border: 2px solid #ffc107;
+        border-radius: 0.5rem;
+    }
+
+    .form-floating label {
+        color: #b30000;
+        font-weight: 500;
+    }
+
+    .btn-primary {
+        background-color: #ff0000;
+        border-color: #ff0000;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .btn-primary:hover {
+        background-color: #cc0000;
+        border-color: #cc0000;
+    }
+
+    .text-danger {
+        font-weight: bold;
+    }
+</style>
+
 <h3>@ViewData["Title"]</h3>
 <partial name="_StatusMessage" for="StatusMessage" />
-<div class="row">
-    <div class="col-md-6">
-        <form id="profile-form" method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
-            <div class="form-floating mb-3">
-                <input asp-for="Username" class="form-control" placeholder="Please choose your username." disabled />
-                <label asp-for="Username" class="form-label"></label>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Please enter your phone number."/>
-                <label asp-for="Input.PhoneNumber" class="form-label"></label>
-                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
-            </div>
-            <button id="update-profile-button" type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
-        </form>
-    </div>
+
+<div class="profile-card">
+    <form id="profile-form" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+        <div class="form-floating mb-3">
+            <input asp-for="Username" class="form-control" placeholder="Please choose your username." disabled />
+            <label asp-for="Username" class="form-label"></label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Please enter your phone number."/>
+            <label asp-for="Input.PhoneNumber" class="form-label"></label>
+            <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+        </div>
+
+        <button id="update-profile-button" type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
+    </form>
 </div>
 
 @section Scripts {

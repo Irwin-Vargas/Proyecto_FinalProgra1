@@ -29,3 +29,109 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+:root {
+    --fastfood-red: #ff0000;
+    --fastfood-yellow: #ffd700;
+    --fastfood-white: #ffffff;
+    --fastfood-dark: #b30000;
+    --fastfood-bg: #fff8f0;
+}
+
+body {
+    background-color: var(--fastfood-bg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-fastfood {
+    background-color: var(--fastfood-red);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.btn-fastfood:hover {
+    background-color: var(--fastfood-dark);
+}
+
+.card-fastfood {
+    border: 2px solid var(--fastfood-yellow);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    background-color: white;
+    color: var(--fastfood-dark);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.bg-fastfood {
+    background: linear-gradient(90deg, #ff0000, #ff6600);
+}
+
+.text-highlight {
+    color: #d32f2f;
+}
+
+.card-fastfood {
+    background-color: #fff;
+    border: 2px solid #ff9800;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.text-highlight {
+    color: #d32f2f;
+}
+
+.btn-fastfood {
+    background: linear-gradient(135deg, #ff0000, #ff6600);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn-fastfood:hover {
+    background: linear-gradient(135deg, #cc0000, #e65c00);
+}
+
+.card-fastfood {
+    background-color: #fff;
+    border: 2px solid #ff9800;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-highlight {
+    color: var(--fastfood-red);
+    font-weight: bold;
+}
+
+.bg-fastfood-header {
+    background-color: var(--fastfood-red);
+    color: white;
+}
+
+.bg-fastfood-footer {
+    background-color: var(--fastfood-yellow);
+    color: #333;
+}
+
+input.form-control, select.form-control {
+    border: 2px solid var(--fastfood-yellow);
+    border-radius: 0.5rem;
+}
+
+label {
+    font-weight: bold;
+    color: var(--fastfood-dark);
+}

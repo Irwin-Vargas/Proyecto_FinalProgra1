@@ -3,68 +3,57 @@
     ViewData["Title"] = "Menú";
 }
 
-<h2 class="text-primary">Menú de Comida</h2>
+<h2 class="text-center text-highlight mb-4">🍔 Menú de Comida</h2>
 
 @if (TempData["success"] != null)
 {
-    <div class="alert alert-success">@TempData["success"]</div>
+    <div class="alert alert-success text-center">@TempData["success"]</div>
 }
 
 @if (User.IsInRole("Admin"))
 {
-    <a asp-action="Create" class="btn btn-primary mb-3">Agregar Producto</a>
+    <div class="text-end mb-3">
+        <a asp-action="Create" class="btn btn-fastfood">Agregar Producto</a>
+    </div>
 }
 
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Imagen</th>
-            <th>Nombre</th>
-            <th>Descripción</th>
-            <th>Precio</th>
-            <th>Categoría</th>
-            @if (User.IsInRole("Admin"))
-            {
-                <th>Acciones</th>
-            }
-            else if (User.Identity.IsAuthenticated)
-            {
-                <th>Comprar</th>
-            }
-        </tr>
-    </thead>
-    <tbody>
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @if (!string.IsNullOrEmpty(item.Image))
-                {
-                    <img src="@item.Image" alt="@item.ItemName" width="80" height="80" />
-                }
-            </td>
-            <td>@item.ItemName</td>
-            <td>@item.Description</td>
-            <td>S/. @item.Price.ToString("0.00")</td>
-            <td>@item.Category?.CategoryName</td>
+@if (!Model.Any())
+{
+    <div class="alert alert-warning text-center">No hay productos disponibles.</div>
+}
+else
+{
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card-fastfood h-100 text-center">
+                    @if (!string.IsNullOrEmpty(item.Image))
+                    {
+                        <img src="@item.Image" alt="@item.ItemName" class="img-fluid rounded mb-3" style="max-height: 200px; object-fit: cover;" />
+                    }
 
-            @if (User.IsInRole("Admin"))
-            {
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Editar</a>
-                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Eliminar</a>
-                </td>
-            }
-            else if (User.Identity.IsAuthenticated)
-            {
-                <td>
-                    <form asp-controller="ShoppingCart" asp-action="AddToCart" method="post">
-                        <input type="hidden" name="id" value="@item.Id" />
-                        <button type="submit" class="btn btn-success btn-sm">Agregar al carrito</button>
-                    </form>
-                </td>
-            }
-        </tr>
-    }
-    </tbody>
-</table>
+                    <h5 class="text-highlight fw-bold">@item.ItemName</h5>
+                    <p>@item.Description</p>
+                    <p><strong>Categoría:</strong> @item.Category?.CategoryName</p>
+                    <p><span class="badge bg-warning text-dark">S/. @item.Price.ToString("0.00")</span></p>
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <div class="d-flex justify-content-center gap-2">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Editar</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                        </div>
+                    }
+                    else if (User.Identity.IsAuthenticated)
+                    {
+                        <form asp-controller="ShoppingCart" asp-action="AddToCart" method="post" class="mt-2">
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <button type="submit" class="btn btn-fastfood btn-sm w-100">Agregar al carrito</button>
+                        </form>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+}
