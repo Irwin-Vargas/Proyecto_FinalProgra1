@@ -1,0 +1,46 @@
+@{
+    ViewData["Title"] = "Resumen del Panel";
+    Layout = null; // No usa _Layout porque ya está embebido en el panel lateral
+}
+
+<h2 class="text-primary">📊 Resumen General</h2>
+
+<div class="row mt-4">
+    <div class="col-md-3">
+        <div class="card text-white bg-primary mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Total Pedidos</h5>
+                <p class="card-text fs-4">@ViewBag.TotalPedidos</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card text-white bg-success mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Pedidos Pendientes</h5>
+                <p class="card-text fs-4">@ViewBag.Pendientes</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card text-white bg-warning mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Productos</h5>
+                <p class="card-text fs-4">@ViewBag.Productos</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card text-white bg-info mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Categorías</h5>
+                <p class="card-text fs-4">@ViewBag.Categorias</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,79 @@
+@model Proyecto_FinalProgra1.Models.MenuItem
+
+@{
+    ViewData["Title"] = "Editar Producto";
+}
+
+<div class="container mt-4">
+    <h2 class="text-primary mb-4"><i class="bi bi-pencil-square"></i> Editar Producto</h2>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <form asp-action="Edit" enctype="multipart/form-data">
+                <input type="hidden" asp-for="Id" />
+
+                <!-- Nombre del producto -->
+                <div class="mb-3">
+                    <label asp-for="ItemName" class="form-label fw-bold"></label>
+                    <input asp-for="ItemName" class="form-control" placeholder="Ej. Hamburguesa Clásica" />
+                    <span asp-validation-for="ItemName" class="text-danger small"></span>
+                </div>
+
+                <!-- Descripción del producto -->
+                <div class="mb-3">
+                    <label asp-for="Description" class="form-label fw-bold"></label>
+                    <textarea asp-for="Description" class="form-control" rows="3" placeholder="Describe brevemente el producto..."></textarea>
+                    <span asp-validation-for="Description" class="text-danger small"></span>
+                </div>
+
+                <!-- Precio del producto -->
+                <div class="mb-3">
+                    <label asp-for="Price" class="form-label fw-bold"></label>
+                    <div class="input-group">
+                        <span class="input-group-text">S/.</span>
+                        <input asp-for="Price" class="form-control" />
+                    </div>
+                    <span asp-validation-for="Price" class="text-danger small"></span>
+                </div>
+
+                <!-- Categoría -->
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Categoría</label>
+                    <select asp-for="CategoryId" asp-items="ViewBag.CategoryList" class="form-select">
+                        <option value="">-- Selecciona una categoría --</option>
+                    </select>
+                    <span asp-validation-for="CategoryId" class="text-danger small"></span>
+                </div>
+
+                <!-- Imagen actual -->
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Imagen actual:</label><br />
+                    @if (!string.IsNullOrEmpty(Model.Image))
+                    {
+                        <img src="@Model.Image" class="img-thumbnail" width="120" height="120" />
+                    }
+                    else
+                    {
+                        <p class="text-muted fst-italic">No hay imagen disponible.</p>
+                    }
+                </div>
+
+                <!-- Subir nueva imagen -->
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Reemplazar imagen:</label>
+                    <input type="file" name="imageFile" class="form-control" />
+                </div>
+
+                <!-- Botones -->
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-success px-4"><i class="bi bi-save"></i> Guardar</button>
+                    <a asp-action="Index" class="btn btn-outline-secondary"><i class="bi bi-arrow-left-circle"></i> Volver</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

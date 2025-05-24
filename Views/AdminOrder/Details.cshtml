@@ -1,0 +1,41 @@
+@model Proyecto_FinalProgra1.Models.Order
+@{
+    ViewData["Title"] = "Detalle del Pedido";
+    var total = Model.OrderDetail.Sum(od => od.Quantity * od.UnitPrice);
+}
+
+<h2>Pedido de @Model.Name</h2>
+
+<ul class="list-group mb-3">
+    <li class="list-group-item"><strong>Email:</strong> @Model.Email</li>
+    <li class="list-group-item"><strong>Teléfono:</strong> @Model.MobileNumber</li>
+    <li class="list-group-item"><strong>Dirección:</strong> @Model.Address</li>
+    <li class="list-group-item"><strong>Fecha:</strong> @Model.CreateDate.ToLocalTime()</li>
+    <li class="list-group-item"><strong>Estado:</strong> @Model.OrderStatus?.StatusName</li>
+</ul>
+
+<h4>Productos</h4>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.OrderDetail)
+    {
+        <tr>
+            <td>@item.MenuItem?.ItemName</td>
+            <td>@item.Quantity</td>
+            <td>@item.UnitPrice.ToString("C")</td>
+            <td>@(item.Quantity * item.UnitPrice).ToString("C")</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<h4 class="text-end">Total: <strong>@total.ToString("C")</strong></h4>
+<a asp-action="Index" class="btn btn-secondary">Volver</a>

@@ -1,36 +1,112 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var isDashboard = ViewContext.RouteData.Values["controller"]?.ToString() == "Dashboard" && User.IsInRole("Admin");
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Proyecto_FinalProgra1</title>
-    <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Proyecto_FinalProgra1.styles.css" asp-append-version="true" />
+    <style>
+        .sidebar {
+            height: 100vh;
+            background-color: #343a40;
+            color: white;
+            padding: 1rem;
+            min-width: 220px;
+        }
+
+        .sidebar a {
+            color: white;
+            display: block;
+            margin: 0.5rem 0;
+            text-decoration: none;
+        }
+
+        .sidebar a:hover {
+            background-color: #495057;
+            padding-left: 5px;
+        }
+
+        .main-content {
+            padding: 2rem;
+        }
+    </style>
 </head>
 <body>
+
+@if (isDashboard)
+{
+    <!-- PANEL LATERAL PARA ADMIN -->
+    <div class="d-flex">
+        <div class="sidebar">
+            <h5 class="text-warning">Admin Panel</h5>
+            <a href="#" onclick="loadContent('/Dashboard/Resumen')">📊 Resumen</a>
+            <a href="#" onclick="loadContent('/AdminOrder/Index')">🧾 Pedidos</a>
+            <a href="#" onclick="loadContent('/Category/Index')">📂 Categorías</a>
+            <a href="#" onclick="loadContent('/MenuItem/Index')">🍔 Productos</a>
+            <a href="#" onclick="loadContent('/Stock/Index')">📦 Stock</a>
+            <hr />
+            <a href="/" class="text-danger">⬅ Volver al sitio</a>
+        </div>
+        <div class="flex-grow-1 main-content" id="main-content">
+            @RenderBody()
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        function loadContent(url) {
+            $('#main-content').load(url);
+        }
+    </script>
+}
+else
+{
+    <!-- LAYOUT NORMAL PARA USUARIOS -->
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Proyecto_FinalProgra1</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">FastFoodExpress</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-light" asp-controller="MenuItem" asp-action="Index">Menú</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-controller="ShoppingCart" asp-action="Index">Carrito</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-controller="Order" asp-action="MyOrders">Mis Pedidos</a>
+                            </li>
+                        }
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-warning" asp-controller="Dashboard" asp-action="Index">Panel Admin</a>
+                            </li>
+                        }
+                    </ul>
+                    <ul class="navbar-nav">
+                        <partial name="_LoginPartial" />
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -39,12 +115,14 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2025 - Proyecto_FinalProgra1 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2025 - Proyecto_FinalProgra1 - <a asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+}
 </body>
 </html>
