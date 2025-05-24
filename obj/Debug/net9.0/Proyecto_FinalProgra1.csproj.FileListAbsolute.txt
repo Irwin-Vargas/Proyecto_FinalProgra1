@@ -755,7 +755,6 @@ D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1
 D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
-D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\2vq28k8zjp-b9sayid5wm.gz
 D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\6zgx8s5axt-61n19gt1b8.gz
 D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\letirb5ita-xtxxf3hu2r.gz
 D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\w0nzj2duif-t1cqhe9u97.gz
@@ -1252,3 +1251,4 @@ C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\n
 C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.genruntimeconfig.cache
 C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\ref\Proyecto_FinalProgra1.dll
 C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\2vq28k8zjp-f118m0uj92.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\2vq28k8zjp-f118m0uj92.gz
