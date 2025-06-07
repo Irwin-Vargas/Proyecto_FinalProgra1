@@ -39,6 +39,10 @@
             <option value="Yape/Plin">Yape/Plin</option>
         </select>
         <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+
+        <!-- Botón de PayPal oculto por defecto -->
+        <div id="paypal-button-container" style="display:none; margin-top: 20px;"></div>
+        <input type="hidden" id="paypalApproved" name="paypalApproved" value="false" />
     </div>
 
     <button type="submit" class="btn btn-success">Confirmar Pedido</button>
@@ -47,4 +51,45 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <!-- SDK de PayPal -->
+    <script src="https://www.paypal.com/sdk/js?client-id=Aekq4pNgN-aA_N6X6rFEMzcGSrH9f9aoxBEiAp_t3RzA_OvwvMwT9OF8dokFBitPVv1utWRAAjBtRZSM&currency=USD"></script>
+
+    <script>
+        const paymentSelect = document.querySelector('[name="PaymentMethod"]');
+        const paypalContainer = document.getElementById('paypal-button-container');
+        const paypalApproved = document.getElementById('paypalApproved');
+        const form = document.querySelector('form');
+
+        function togglePayPalButton() {
+            if (paymentSelect.value === 'Tarjeta') {
+                paypalContainer.style.display = 'block';
+            } else {
+                paypalContainer.style.display = 'none';
+                paypalApproved.value = 'false';
+            }
+        }
+
+        paymentSelect.addEventListener('change', togglePayPalButton);
+        togglePayPalButton();
+
+        paypal.Buttons({
+            createOrder: function (data, actions) {
+                return actions.order.create({
+                    purchase_units: [{
+                        amount: {
+                            value: '@ViewBag.Total' // Ej. "25.00"
+                        }
+                    }]
+                });
+            },
+            onApprove: function (data, actions) {
+                return actions.order.capture().then(function (details) {
+                    alert('Pago exitoso por: ' + details.payer.name.given_name);
+                    paypalApproved.value = "true";
+                    form.submit();
+                });
+            }
+        }).render('#paypal-button-container');
+    </script>
 }
