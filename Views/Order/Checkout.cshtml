@@ -102,16 +102,21 @@
                     })
                     .then(order => order.id);
             },
-            onApprove: function (data) {
-                return fetch(`/Order/CapturePaypalOrder?orderID=${data.orderID}`, {
-                    method: 'post'
-                })
-                .then(res => {
-                    if (!res.ok) throw new Error('Error al capturar la orden');
-                    paypalApproved.value = "true";
-                    setTimeout(() => form.submit(), 500); // ⏱️ Delay clave para evitar logout
-                });
-            },
+            onApprove: function (data, actions) {
+    return fetch(`/Order/CapturePaypalOrder?orderID=${data.orderID}`, {
+        method: 'POST',
+        credentials: 'include' // 🟢 IMPORTANTE: Asegura cookies se envían
+    })
+    .then(res => {
+        if (!res.ok) throw new Error('Error al capturar la orden');
+        paypalApproved.value = "true";
+
+        // Esperar para asegurar persistencia de cookie
+        setTimeout(() => {
+            form.submit();
+        }, 300);
+    });
+},
             onError: function (err) {
                 console.error('PayPal error:', err);
                 alert('Hubo un problema procesando el pago con PayPal.');
