@@ -1,24 +1,22 @@
 using Proyecto_FinalProgra1.Data;
-using Proyecto_FinalProgra1.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Http;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
+using Microsoft.AspNetCore.Http;
+using Proyecto_FinalProgra1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurar PayPal desde configuración
+// Configurar PayPal desde configuración (si usas appsettings.json)
 PayPalService.Configure(builder.Configuration);
 
-// Add services
+// MVC + Identity
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
-// Base de datos PostgreSQL
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Configuración de Identity y cookies seguras para PayPal
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
@@ -26,10 +24,10 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 .AddRoles<IdentityRole>()
 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-// 🔐 Cookies seguras y SameSite=None (importante para PayPal)
+// 🔐 Cookies para mantener sesión tras PayPal
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.Cookie.Name = "AppAuth";
+    options.Cookie.Name = ".AspNetCore.Identity.Application";
     options.Cookie.HttpOnly = true;
     options.Cookie.SameSite = SameSiteMode.None;
     options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
@@ -37,7 +35,6 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.SlidingExpiration = true;
 });
 
-// 🔐 Política de cookies
 builder.Services.Configure<CookiePolicyOptions>(options =>
 {
     options.MinimumSameSitePolicy = SameSiteMode.None;
@@ -46,7 +43,7 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
 
 var app = builder.Build();
 
-// Crear usuario admin por defecto
+// Crear rol y admin por defecto
 using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
@@ -75,7 +72,7 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-// Pipeline
+// Middleware pipeline
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -84,7 +81,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseCookiePolicy(); // ⚠️ Importante para SameSite=None
+app.UseCookiePolicy(); // 🔐 Para SameSite=None
+
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
@@ -94,4 +92,5 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.MapRazorPages();
+
 app.Run();
