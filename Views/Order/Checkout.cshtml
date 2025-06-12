@@ -6,6 +6,8 @@
 <h2 class="text-primary">Finalizar Pedido</h2>
 
 <form asp-action="Checkout" method="post" onsubmit="return validatePayment();">
+    @Html.AntiForgeryToken() <!-- 🔐 NECESARIO PARA VALIDAR POST -->
+
     <div class="mb-3">
         <label asp-for="Name" class="form-label"></label>
         <input asp-for="Name" class="form-control" />
@@ -107,7 +109,7 @@
                 .then(res => {
                     if (!res.ok) throw new Error('Error al capturar la orden');
                     paypalApproved.value = "true";
-                    setTimeout(() => form.submit(), 500); // 🔧 Delay para asegurar cookie
+                    setTimeout(() => form.submit(), 500); // ⏱️ Delay clave para evitar logout
                 });
             },
             onError: function (err) {

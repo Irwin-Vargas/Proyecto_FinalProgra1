@@ -7,7 +7,7 @@ using Proyecto_FinalProgra1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 🔗 CONFIGURAR PAYPAL
+// Configurar PayPal desde appsettings si aplica
 PayPalService.Configure(builder.Configuration);
 
 builder.Services.AddControllersWithViews();
@@ -23,11 +23,14 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 .AddRoles<IdentityRole>()
 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-// ✅ COOKIE: Para PayPal login persistence
+// ✅ Cookies seguras para mantener sesión tras retorno desde PayPal
 builder.Services.ConfigureApplicationCookie(options =>
 {
+    options.Cookie.HttpOnly = true;
     options.Cookie.SameSite = SameSiteMode.None;
     options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+    options.ExpireTimeSpan = TimeSpan.FromDays(5);
+    options.SlidingExpiration = true;
 });
 
 builder.Services.Configure<CookiePolicyOptions>(options =>
@@ -38,7 +41,6 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
 
 var app = builder.Build();
 
-// 🛠️ Crear usuario admin
 using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
@@ -49,9 +51,7 @@ using (var scope = app.Services.CreateScope())
     string adminPass = "Admin123!";
 
     if (!await roleManager.RoleExistsAsync(roleName))
-    {
         await roleManager.CreateAsync(new IdentityRole(roleName));
-    }
 
     var adminUser = await userManager.FindByEmailAsync(adminEmail);
     if (adminUser == null)
@@ -65,12 +65,11 @@ using (var scope = app.Services.CreateScope())
 
         var result = await userManager.CreateAsync(adminUser, adminPass);
         if (result.Succeeded)
-        {
             await userManager.AddToRoleAsync(adminUser, roleName);
-        }
     }
 }
 
+// Middleware
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -79,7 +78,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseCookiePolicy();
+app.UseCookiePolicy(); // Necesario para que se respete SameSite=None
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
@@ -89,5 +88,4 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.MapRazorPages();
-
 app.Run();
