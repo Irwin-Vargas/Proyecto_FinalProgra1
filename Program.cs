@@ -1,22 +1,24 @@
 using Proyecto_FinalProgra1.Data;
+using Proyecto_FinalProgra1.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
-using Npgsql.EntityFrameworkCore.PostgreSQL;
 using Microsoft.AspNetCore.Http;
-using Proyecto_FinalProgra1.Services;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 💳 CONFIGURAR PAYPAL (desde appsettings o variables de entorno)
+// Configurar PayPal desde configuración
 PayPalService.Configure(builder.Configuration);
 
-// 📦 Servicios
+// Add services
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
+// Base de datos PostgreSQL
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Configuración de Identity y cookies seguras para PayPal
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
@@ -24,9 +26,10 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 .AddRoles<IdentityRole>()
 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-// ✅ COOKIES SEGURO + Cross-site compatible con PayPal
+// 🔐 Cookies seguras y SameSite=None (importante para PayPal)
 builder.Services.ConfigureApplicationCookie(options =>
 {
+    options.Cookie.Name = "AppAuth";
     options.Cookie.HttpOnly = true;
     options.Cookie.SameSite = SameSiteMode.None;
     options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
@@ -34,6 +37,7 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.SlidingExpiration = true;
 });
 
+// 🔐 Política de cookies
 builder.Services.Configure<CookiePolicyOptions>(options =>
 {
     options.MinimumSameSitePolicy = SameSiteMode.None;
@@ -42,7 +46,7 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
 
 var app = builder.Build();
 
-// 🔧 CREAR ADMIN
+// Crear usuario admin por defecto
 using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
@@ -71,7 +75,7 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-// 🌐 Middleware
+// Pipeline
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -80,16 +84,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
-// 🔐 Añadir CORS Headers para PayPal
-app.Use(async (context, next) =>
-{
-    context.Response.Headers.Add("Access-Control-Allow-Origin", "https://www.paypal.com");
-    context.Response.Headers.Add("Access-Control-Allow-Credentials", "true");
-    await next();
-});
-
-app.UseCookiePolicy();
+app.UseCookiePolicy(); // ⚠️ Importante para SameSite=None
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
