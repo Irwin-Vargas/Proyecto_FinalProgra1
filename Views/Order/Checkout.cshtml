@@ -5,7 +5,7 @@
 
 <h2 class="text-primary">Finalizar Pedido</h2>
 
-<form asp-action="Checkout" method="post">
+<form asp-action="Checkout" method="post" onsubmit="return validatePayment();">
     <div class="mb-3">
         <label asp-for="Name" class="form-label"></label>
         <input asp-for="Name" class="form-control" />
@@ -39,13 +39,12 @@
             <option value="Yape/Plin">Yape/Plin</option>
         </select>
         <span asp-validation-for="PaymentMethod" class="text-danger"></span>
-<<<<<<< HEAD
-=======
 
-        <!-- Botón de PayPal oculto por defecto -->
+        <div id="totalContainer" style="display: none; margin-top: 10px;">
+            <strong>Total:</strong> <span id="cartTotal" class="text-primary">$0.00</span>
+        </div>
         <div id="paypal-button-container" style="display:none; margin-top: 20px;"></div>
         <input type="hidden" id="paypalApproved" name="paypalApproved" value="false" />
->>>>>>> 681a78d46f9de03667c9166520e17b06558be08d
     </div>
 
     <button type="submit" class="btn btn-success">Confirmar Pedido</button>
@@ -54,48 +53,67 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-<<<<<<< HEAD
-=======
-
-    <!-- SDK de PayPal -->
-    <script src="https://www.paypal.com/sdk/js?client-id=Aekq4pNgN-aA_N6X6rFEMzcGSrH9f9aoxBEiAp_t3RzA_OvwvMwT9OF8dokFBitPVv1utWRAAjBtRZSM&currency=USD"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=AYKLWCKSZBaLnC2MImUkVLno0NUptlPumBkFBT8TSPKy-pKiSEEhdCSk4OlDCfimIZg8TYGGH3IPIPU4&currency=USD"></script>
 
     <script>
         const paymentSelect = document.querySelector('[name="PaymentMethod"]');
         const paypalContainer = document.getElementById('paypal-button-container');
         const paypalApproved = document.getElementById('paypalApproved');
         const form = document.querySelector('form');
+        const totalContainer = document.getElementById('totalContainer');
+        const cartTotal = document.getElementById('cartTotal');
 
         function togglePayPalButton() {
-            if (paymentSelect.value === 'Tarjeta') {
-                paypalContainer.style.display = 'block';
-            } else {
-                paypalContainer.style.display = 'none';
-                paypalApproved.value = 'false';
+            const isCard = paymentSelect.value === 'Tarjeta';
+            paypalContainer.style.display = isCard ? 'block' : 'none';
+            totalContainer.style.display = isCard ? 'block' : 'none';
+            paypalApproved.value = 'false';
+            if (isCard) fetchTotal();
+        }
+
+        function fetchTotal() {
+            fetch('/ShoppingCart/GetCartTotal')
+                .then(res => res.json())
+                .then(data => {
+                    cartTotal.innerText = `$${data.total.toFixed(2)}`;
+                })
+                .catch(err => console.error("Error obteniendo total:", err));
+        }
+
+        function validatePayment() {
+            if (paymentSelect.value === 'Tarjeta' && paypalApproved.value !== "true") {
+                alert("Debes completar el pago con PayPal antes de confirmar.");
+                return false;
             }
+            return true;
         }
 
         paymentSelect.addEventListener('change', togglePayPalButton);
         togglePayPalButton();
 
         paypal.Buttons({
-            createOrder: function (data, actions) {
-                return actions.order.create({
-                    purchase_units: [{
-                        amount: {
-                            value: '@ViewBag.Total' // Ej. "25.00"
-                        }
-                    }]
+            createOrder: function () {
+                return fetch('/Order/CreatePaypalOrder', { method: 'post' })
+                    .then(res => {
+                        if (!res.ok) throw new Error('Error creando la orden');
+                        return res.json();
+                    })
+                    .then(order => order.id);
+            },
+            onApprove: function (data) {
+                return fetch(`/Order/CapturePaypalOrder?orderID=${data.orderID}`, {
+                    method: 'post'
+                })
+                .then(res => {
+                    if (!res.ok) throw new Error('Error al capturar la orden');
+                    paypalApproved.value = "true";
+                    setTimeout(() => form.submit(), 500); // 🔧 Delay para asegurar cookie
                 });
             },
-            onApprove: function (data, actions) {
-                return actions.order.capture().then(function (details) {
-                    alert('Pago exitoso por: ' + details.payer.name.given_name);
-                    paypalApproved.value = "true";
-                    form.submit();
-                });
+            onError: function (err) {
+                console.error('PayPal error:', err);
+                alert('Hubo un problema procesando el pago con PayPal.');
             }
         }).render('#paypal-button-container');
     </script>
->>>>>>> 681a78d46f9de03667c9166520e17b06558be08d
 }

@@ -2,11 +2,9 @@
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /app
 
-# Copia csproj y restaura dependencias
 COPY *.csproj ./
 RUN dotnet restore
 
-# Copia el resto del código y compila
 COPY . ./
 RUN dotnet publish -c Release -o /out
 
@@ -15,8 +13,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
 WORKDIR /app
 COPY --from=build /out .
 
-# Expón el puerto por defecto
 EXPOSE 80
+EXPOSE 443
 
-# Comando para ejecutar la app
 ENTRYPOINT ["dotnet", "Proyecto_FinalProgra1.dll"]

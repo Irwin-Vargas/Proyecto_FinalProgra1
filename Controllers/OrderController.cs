@@ -1,15 +1,13 @@
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Proyecto_FinalProgra1.Data;
 using Proyecto_FinalProgra1.Models;
 using Microsoft.AspNetCore.Identity;
+using Proyecto_FinalProgra1.Services;
 
 namespace Proyecto_FinalProgra1.Controllers
 {
@@ -25,10 +23,7 @@ namespace Proyecto_FinalProgra1.Controllers
             _userManager = userManager;
         }
 
-        public IActionResult Checkout()
-        {
-            return View();
-        }
+        public IActionResult Checkout() => View();
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -37,7 +32,7 @@ namespace Proyecto_FinalProgra1.Controllers
             var user = await _userManager.GetUserAsync(User);
             if (user == null) return RedirectToAction("Login", "Account");
 
-            string userId = user.Id;
+            var userId = user.Id;
 
             var cart = await _context.ShoppingCart
                 .FirstOrDefaultAsync(c => c.UserId == userId && !c.IsDeleted);
@@ -60,23 +55,18 @@ namespace Proyecto_FinalProgra1.Controllers
                 return RedirectToAction("Index", "ShoppingCart");
             }
 
-            // 🔍 Validación de stock
             foreach (var item in cartDetails)
             {
                 var stock = await _context.Stock.FirstOrDefaultAsync(s => s.MenuItemId == item.MenuItemId);
                 if (stock == null || stock.Quantity < item.Quantity)
                 {
-                    TempData["error"] = $"No hay suficiente stock para el producto: {item.MenuItem?.ItemName}";
+                    TempData["error"] = $"No hay suficiente stock para: {item.MenuItem?.ItemName}";
                     return RedirectToAction("Index", "ShoppingCart");
                 }
             }
 
-            if (!ModelState.IsValid)
-            {
-                return View(order);
-            }
+            if (!ModelState.IsValid) return View(order);
 
-            // ✅ Guardar el pedido
             order.UserId = userId;
             order.OrderStatusId = 1;
             order.CreateDate = DateTime.UtcNow;
@@ -94,7 +84,6 @@ namespace Proyecto_FinalProgra1.Controllers
                     UnitPrice = item.UnitPrice
                 });
 
-                // 📉 Descontar stock
                 var stock = await _context.Stock.FirstOrDefaultAsync(s => s.MenuItemId == item.MenuItemId);
                 if (stock != null)
                 {
@@ -116,11 +105,9 @@ namespace Proyecto_FinalProgra1.Controllers
             var user = await _userManager.GetUserAsync(User);
             if (user == null) return RedirectToAction("Login", "Account");
 
-            string userId = user.Id;
-
             var orders = await _context.Order
                 .Include(o => o.OrderStatus)
-                .Where(o => o.UserId == userId)
+                .Where(o => o.UserId == user.Id)
                 .OrderByDescending(o => o.CreateDate)
                 .ToListAsync();
 
@@ -132,17 +119,62 @@ namespace Proyecto_FinalProgra1.Controllers
             var user = await _userManager.GetUserAsync(User);
             if (user == null) return RedirectToAction("Login", "Account");
 
-            string userId = user.Id;
-
             var order = await _context.Order
                 .Include(o => o.OrderDetail)
                 .ThenInclude(d => d.MenuItem)
                 .Include(o => o.OrderStatus)
-                .FirstOrDefaultAsync(o => o.Id == id && o.UserId == userId);
+                .FirstOrDefaultAsync(o => o.Id == id && o.UserId == user.Id);
 
-            if (order == null) return NotFound();
+            return order == null ? NotFound() : View(order);
+        }
 
-            return View(order);
+        // PayPal integration
+        [HttpPost]
+        public async Task<IActionResult> CreatePaypalOrder()
+        {
+            try
+            {
+                var user = await _userManager.GetUserAsync(User);
+                if (user == null) return Unauthorized();
+
+                string userId = user.Id;
+
+                // FIX: Obtener el total usando Join
+                var total = await _context.CartDetail
+                    .Join(_context.ShoppingCart,
+                          cd => cd.ShoppingCartId,
+                          cart => cart.Id,
+                          (cd, cart) => new { cd, cart })
+                    .Where(x => x.cart.UserId == userId && !x.cart.IsDeleted)
+                    .SumAsync(x => x.cd.Quantity * x.cd.UnitPrice);
+
+                var orderId = await PayPalService.CreateOrderAsync((decimal)total);
+                return Json(new { id = orderId });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("🚨 PayPal Order Error: " + ex.Message);
+                return StatusCode(500, "Error creando orden");
+            }
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> CapturePaypalOrder(string orderID)
+        {
+            if (string.IsNullOrEmpty(orderID))
+                return BadRequest("OrderID es requerido");
+
+            try
+            {
+                var success = await PayPalService.CaptureOrderAsync(orderID);
+                return success ? Ok() : StatusCode(500, "Fallo al capturar la orden");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("❌ Error capturando orden PayPal: " + ex.Message);
+                return StatusCode(500, "Excepción capturando orden PayPal");
+            }
         }
     }
 }
