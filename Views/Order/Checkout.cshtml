@@ -6,7 +6,7 @@
 <h2 class="text-primary">Finalizar Pedido</h2>
 
 <form asp-action="Checkout" method="post" onsubmit="return validatePayment();">
-    @Html.AntiForgeryToken() <!-- 🔐 NECESARIO PARA VALIDAR POST -->
+    @Html.AntiForgeryToken() <!-- 🔐 Evita CSRF -->
 
     <div class="mb-3">
         <label asp-for="Name" class="form-label"></label>
@@ -45,6 +45,7 @@
         <div id="totalContainer" style="display: none; margin-top: 10px;">
             <strong>Total:</strong> <span id="cartTotal" class="text-primary">$0.00</span>
         </div>
+
         <div id="paypal-button-container" style="display:none; margin-top: 20px;"></div>
         <input type="hidden" id="paypalApproved" name="paypalApproved" value="false" />
     </div>
@@ -55,6 +56,8 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <!-- ✅ SDK con Live o Sandbox según config -->
     <script src="https://www.paypal.com/sdk/js?client-id=AYKLWCKSZBaLnC2MImUkVLno0NUptlPumBkFBT8TSPKy-pKiSEEhdCSk4OlDCfimIZg8TYGGH3IPIPU4&currency=USD"></script>
 
     <script>
@@ -74,12 +77,14 @@
         }
 
         function fetchTotal() {
-            fetch('/ShoppingCart/GetCartTotal')
-                .then(res => res.json())
-                .then(data => {
-                    cartTotal.innerText = `$${data.total.toFixed(2)}`;
-                })
-                .catch(err => console.error("Error obteniendo total:", err));
+            fetch('/ShoppingCart/GetCartTotal', {
+                credentials: 'include'
+            })
+            .then(res => res.json())
+            .then(data => {
+                cartTotal.innerText = `$${data.total.toFixed(2)}`;
+            })
+            .catch(err => console.error("Error obteniendo total:", err));
         }
 
         function validatePayment() {
@@ -95,31 +100,30 @@
 
         paypal.Buttons({
             createOrder: function () {
-                return fetch('/Order/CreatePaypalOrder', { method: 'post' })
-                    .then(res => {
-                        if (!res.ok) throw new Error('Error creando la orden');
-                        return res.json();
-                    })
-                    .then(order => order.id);
+                return fetch('/Order/CreatePaypalOrder', {
+                    method: 'POST',
+                    credentials: 'include',
+                    headers: {
+                        'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                    }
+                })
+                .then(res => res.json())
+                .then(data => data.id);
             },
-            onApprove: function (data, actions) {
-    return fetch(`/Order/CapturePaypalOrder?orderID=${data.orderID}`, {
-        method: 'POST',
-        credentials: 'include' // 🟢 IMPORTANTE: Asegura cookies se envían
-    })
-    .then(res => {
-        if (!res.ok) throw new Error('Error al capturar la orden');
-        paypalApproved.value = "true";
-
-        // Esperar para asegurar persistencia de cookie
-        setTimeout(() => {
-            form.submit();
-        }, 300);
-    });
-},
+            onApprove: function (data) {
+                return fetch(`/Order/CapturePaypalOrder?orderID=${data.orderID}`, {
+                    method: 'POST',
+                    credentials: 'include'
+                })
+                .then(res => {
+                    if (!res.ok) throw new Error('Error al capturar la orden');
+                    paypalApproved.value = "true";
+                    setTimeout(() => form.submit(), 400); // delay para seguridad
+                });
+            },
             onError: function (err) {
                 console.error('PayPal error:', err);
-                alert('Hubo un problema procesando el pago con PayPal.');
+                alert('Hubo un error al procesar el pago con PayPal.');
             }
         }).render('#paypal-button-container');
     </script>

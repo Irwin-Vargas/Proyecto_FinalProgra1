@@ -7,9 +7,10 @@ using Proyecto_FinalProgra1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurar PayPal desde appsettings si aplica
+// 💳 CONFIGURAR PAYPAL (desde appsettings o variables de entorno)
 PayPalService.Configure(builder.Configuration);
 
+// 📦 Servicios
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
@@ -23,13 +24,13 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 .AddRoles<IdentityRole>()
 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-// ✅ Cookies seguras para mantener sesión tras retorno desde PayPal
+// ✅ COOKIES SEGURO + Cross-site compatible con PayPal
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.Cookie.HttpOnly = true;
     options.Cookie.SameSite = SameSiteMode.None;
     options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-    options.ExpireTimeSpan = TimeSpan.FromDays(5);
+    options.ExpireTimeSpan = TimeSpan.FromDays(7);
     options.SlidingExpiration = true;
 });
 
@@ -41,6 +42,7 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
 
 var app = builder.Build();
 
+// 🔧 CREAR ADMIN
 using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
@@ -69,7 +71,7 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-// Middleware
+// 🌐 Middleware
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -78,7 +80,16 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseCookiePolicy(); // Necesario para que se respete SameSite=None
+
+// 🔐 Añadir CORS Headers para PayPal
+app.Use(async (context, next) =>
+{
+    context.Response.Headers.Add("Access-Control-Allow-Origin", "https://www.paypal.com");
+    context.Response.Headers.Add("Access-Control-Allow-Credentials", "true");
+    await next();
+});
+
+app.UseCookiePolicy();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
