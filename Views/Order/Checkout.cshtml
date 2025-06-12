@@ -57,7 +57,6 @@
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 
-    <!-- ✅ SDK con Live o Sandbox según config -->
     <script src="https://www.paypal.com/sdk/js?client-id=AYKLWCKSZBaLnC2MImUkVLno0NUptlPumBkFBT8TSPKy-pKiSEEhdCSk4OlDCfimIZg8TYGGH3IPIPU4&currency=USD"></script>
 
     <script>
@@ -113,12 +112,15 @@
             onApprove: function (data) {
                 return fetch(`/Order/CapturePaypalOrder?orderID=${data.orderID}`, {
                     method: 'POST',
-                    credentials: 'include'
+                    credentials: 'include',
+                    headers: {
+                        'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                    }
                 })
                 .then(res => {
                     if (!res.ok) throw new Error('Error al capturar la orden');
                     paypalApproved.value = "true";
-                    setTimeout(() => form.submit(), 400); // delay para seguridad
+                    setTimeout(() => form.submit(), 400);
                 });
             },
             onError: function (err) {
