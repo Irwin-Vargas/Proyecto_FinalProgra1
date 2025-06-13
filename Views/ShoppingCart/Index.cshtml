@@ -56,4 +56,13 @@ else
         <h4 class="fw-bold text-highlight">Total del Pedido: S/. @total.ToString("0.00")</h4>
         <a asp-controller="Order" asp-action="Checkout" class="btn btn-fastfood">Proceder al Pago</a>
     </div>
+    @if (ViewBag.Ubicacion != null)
+{
+    <div class="alert alert-info text-center">
+         Estás viendo desde: <strong>@ViewBag.Ubicacion</strong>
+    </div>
+}
+
+
+ 
 }

@@ -13,6 +13,7 @@ PayPalService.Configure(builder.Configuration);
 // Add services
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+builder.Services.AddHttpClient<GeolocationService>();
 
 // Base de datos PostgreSQL
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

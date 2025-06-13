@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Proyecto_FinalProgra1.Data;
 using Proyecto_FinalProgra1.Models;
 using Microsoft.AspNetCore.Identity;
+using Proyecto_FinalProgra1.Services; // ← NUEVO: para usar el servicio de geolocalización
 
 namespace Proyecto_FinalProgra1.Controllers
 {
@@ -17,26 +18,32 @@ namespace Proyecto_FinalProgra1.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<IdentityUser> _userManager;
+        private readonly GeolocationService _geoService; // ← NUEVO: Servicio inyectado
 
-        public ShoppingCartController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
+        public ShoppingCartController(ApplicationDbContext context, UserManager<IdentityUser> userManager, GeolocationService geoService)
         {
             _context = context;
             _userManager = userManager;
+            _geoService = geoService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index() // ← Ahora async
         {
             string userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value ?? "";
             var cart = _context.ShoppingCart.FirstOrDefault(c => c.UserId == userId && !c.IsDeleted);
 
             if (cart == null)
+            {
+                ViewBag.Ubicacion = await _geoService.GetUserLocationAsync(); // ← Obtener ubicación aunque no haya carrito
                 return View(new List<CartDetail>());
+            }
 
             var cartDetails = _context.CartDetail
                 .Include(cd => cd.MenuItem)
                 .Where(cd => cd.ShoppingCartId == cart.Id)
                 .ToList();
 
+            ViewBag.Ubicacion = await _geoService.GetUserLocationAsync(); // ← Agregar ubicación
             return View(cartDetails);
         }
 
@@ -104,7 +111,6 @@ namespace Proyecto_FinalProgra1.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // 🔽 NUEVO: para obtener el total del carrito
         [HttpGet]
         public async Task<IActionResult> GetCartTotal()
         {
