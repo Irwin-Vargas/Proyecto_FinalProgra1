@@ -6,20 +6,37 @@
     .hero {
         background: linear-gradient(135deg, #ff4e00, #ec9f05);
         color: white;
-        padding: 4rem 2rem;
+        padding: 5rem 2rem;
         text-align: center;
         border-radius: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hero-logo {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        width: 120px;
+        height: auto;
+        border-radius: 1rem;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        background-color: white;
+        padding: 0.5rem;
     }
 
     .hero h1 {
-        font-size: 3rem;
-        font-weight: bold;
+        font-size: 3.5rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     }
 
     .hero p {
-        font-size: 1.2rem;
-        margin-top: 1rem;
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-top: 0.5rem;
     }
 
     .features {
@@ -27,31 +44,40 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 2rem;
+        padding: 0 1rem 2rem 1rem;
     }
 
     .feature-box {
-        background-color: white;
+        background: white;
         color: #b30000;
-        border: 2px solid #ffd700;
+        border: 3px solid #ffd700;
         border-radius: 1rem;
         padding: 2rem;
         text-align: center;
-        width: 280px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .feature-box:hover {
+        transform: translateY(-5px);
     }
 
     .feature-box h3 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+        font-weight: bold;
         margin-bottom: 1rem;
     }
 
     .feature-box p {
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
 </style>
 
 <div class="hero">
-    <h1>¡Bienvenido a LA PERUCHA!</h1>
+    <!-- Cambia la ruta por la de tu logo -->
+   
+    <h1>¡Bienvenido a <span style="color: #fff200;">LA PERUCHA</span>!</h1>
     <p>Comida rápida, deliciosa y al instante. ¡Haz tu pedido ahora!</p>
 </div>
 

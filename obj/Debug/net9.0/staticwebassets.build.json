@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A9KgMCFQLN/uwcK9wrRq4And3DowHQ3q25V/tIshppA=",
+  "Hash": "dsE/HWAVI0GSK5SHQCq0+DZW/VjCBoOGHuPcvTYkHR4=",
   "Source": "Proyecto_FinalProgra1",
   "BasePath": "_content/Proyecto_FinalProgra1",
   "Mode": "Default",
@@ -4131,6 +4131,153 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\9e5b2095-00f3-4b60-b957-3e96d3733702.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBcebolla.jpeg",
+      "SourceId": "Proyecto_FinalProgra1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\",
+      "BasePath": "_content/Proyecto_FinalProgra1",
+      "RelativePath": "images/HBcebolla#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "963k511oxh",
+      "Integrity": "79n8TEAaBUaBCzGhKaxwwAI3uKPSo1cw2W3jriNRvyM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\HBcebolla.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBextra.jpeg",
+      "SourceId": "Proyecto_FinalProgra1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\",
+      "BasePath": "_content/Proyecto_FinalProgra1",
+      "RelativePath": "images/HBextra#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u23p5rcelw",
+      "Integrity": "1oxSl+cYLIZRm5UEnWsjQ7OjkqjUZXYtH2nWgMzxQVI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\HBextra.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBhuevo.jpeg",
+      "SourceId": "Proyecto_FinalProgra1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\",
+      "BasePath": "_content/Proyecto_FinalProgra1",
+      "RelativePath": "images/HBhuevo#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oq9wmnguat",
+      "Integrity": "sPRVSLmt81qtJwhnBAQCTGaj2oWi9ck6brxR5NgtYmk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\HBhuevo.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBnomal.jpeg",
+      "SourceId": "Proyecto_FinalProgra1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\",
+      "BasePath": "_content/Proyecto_FinalProgra1",
+      "RelativePath": "images/HBnomal#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oi1wdlsqgz",
+      "Integrity": "UE+oNxFwVcrioQ2gsklsMv2dPHwrnWHvwqtGcKzCz4g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\HBnomal.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBPAPAS.jpeg",
+      "SourceId": "Proyecto_FinalProgra1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\",
+      "BasePath": "_content/Proyecto_FinalProgra1",
+      "RelativePath": "images/HBPAPAS#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7bbj9fa2mb",
+      "Integrity": "/dqWoIwHDL7NMMbfcHq6Xw1ZIsw9NVCYrn6IJJ3p5vM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\HBPAPAS.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBqueso.jpeg",
+      "SourceId": "Proyecto_FinalProgra1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\",
+      "BasePath": "_content/Proyecto_FinalProgra1",
+      "RelativePath": "images/HBqueso#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dcqylvq4en",
+      "Integrity": "3WqnE4+YfxB/8S/KXAlhZXVhW9VKQmo7ynyOMCqZcTk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\HBqueso.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\Logoperucha.jpeg",
+      "SourceId": "Proyecto_FinalProgra1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\",
+      "BasePath": "_content/Proyecto_FinalProgra1",
+      "RelativePath": "images/Logoperucha#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cxrh3j0b5l",
+      "Integrity": "YIkGY4TvPj+mFMk512RV5NKvtnWm8dKz79mE+Wq44Pc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Logoperucha.jpeg"
     },
     {
       "Identity": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\js\\site.js",
@@ -14785,6 +14932,580 @@
         {
           "Name": "integrity",
           "Value": "sha256-G5BMOPVk5JCkXDRM33DFGetGxKEqaJ2pWQbCV+BesV8="
+        }
+      ]
+    },
+    {
+      "Route": "images/HBcebolla.963k511oxh.jpeg",
+      "AssetFile": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBcebolla.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65448"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"79n8TEAaBUaBCzGhKaxwwAI3uKPSo1cw2W3jriNRvyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:09:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "963k511oxh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/HBcebolla.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-79n8TEAaBUaBCzGhKaxwwAI3uKPSo1cw2W3jriNRvyM="
+        }
+      ]
+    },
+    {
+      "Route": "images/HBcebolla.jpeg",
+      "AssetFile": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBcebolla.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65448"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"79n8TEAaBUaBCzGhKaxwwAI3uKPSo1cw2W3jriNRvyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:09:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-79n8TEAaBUaBCzGhKaxwwAI3uKPSo1cw2W3jriNRvyM="
+        }
+      ]
+    },
+    {
+      "Route": "images/HBextra.jpeg",
+      "AssetFile": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBextra.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61628"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1oxSl+cYLIZRm5UEnWsjQ7OjkqjUZXYtH2nWgMzxQVI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:09:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1oxSl+cYLIZRm5UEnWsjQ7OjkqjUZXYtH2nWgMzxQVI="
+        }
+      ]
+    },
+    {
+      "Route": "images/HBextra.u23p5rcelw.jpeg",
+      "AssetFile": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBextra.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61628"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1oxSl+cYLIZRm5UEnWsjQ7OjkqjUZXYtH2nWgMzxQVI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:09:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u23p5rcelw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/HBextra.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1oxSl+cYLIZRm5UEnWsjQ7OjkqjUZXYtH2nWgMzxQVI="
+        }
+      ]
+    },
+    {
+      "Route": "images/HBhuevo.jpeg",
+      "AssetFile": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBhuevo.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62208"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sPRVSLmt81qtJwhnBAQCTGaj2oWi9ck6brxR5NgtYmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:09:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sPRVSLmt81qtJwhnBAQCTGaj2oWi9ck6brxR5NgtYmk="
+        }
+      ]
+    },
+    {
+      "Route": "images/HBhuevo.oq9wmnguat.jpeg",
+      "AssetFile": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBhuevo.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62208"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sPRVSLmt81qtJwhnBAQCTGaj2oWi9ck6brxR5NgtYmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:09:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oq9wmnguat"
+        },
+        {
+          "Name": "label",
+          "Value": "images/HBhuevo.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sPRVSLmt81qtJwhnBAQCTGaj2oWi9ck6brxR5NgtYmk="
+        }
+      ]
+    },
+    {
+      "Route": "images/HBnomal.jpeg",
+      "AssetFile": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBnomal.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40567"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UE+oNxFwVcrioQ2gsklsMv2dPHwrnWHvwqtGcKzCz4g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:08:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UE+oNxFwVcrioQ2gsklsMv2dPHwrnWHvwqtGcKzCz4g="
+        }
+      ]
+    },
+    {
+      "Route": "images/HBnomal.oi1wdlsqgz.jpeg",
+      "AssetFile": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBnomal.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40567"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UE+oNxFwVcrioQ2gsklsMv2dPHwrnWHvwqtGcKzCz4g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:08:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oi1wdlsqgz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/HBnomal.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UE+oNxFwVcrioQ2gsklsMv2dPHwrnWHvwqtGcKzCz4g="
+        }
+      ]
+    },
+    {
+      "Route": "images/HBPAPAS.7bbj9fa2mb.jpeg",
+      "AssetFile": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBPAPAS.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/dqWoIwHDL7NMMbfcHq6Xw1ZIsw9NVCYrn6IJJ3p5vM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:08:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7bbj9fa2mb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/HBPAPAS.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/dqWoIwHDL7NMMbfcHq6Xw1ZIsw9NVCYrn6IJJ3p5vM="
+        }
+      ]
+    },
+    {
+      "Route": "images/HBPAPAS.jpeg",
+      "AssetFile": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBPAPAS.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/dqWoIwHDL7NMMbfcHq6Xw1ZIsw9NVCYrn6IJJ3p5vM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:08:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/dqWoIwHDL7NMMbfcHq6Xw1ZIsw9NVCYrn6IJJ3p5vM="
+        }
+      ]
+    },
+    {
+      "Route": "images/HBqueso.dcqylvq4en.jpeg",
+      "AssetFile": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBqueso.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WqnE4+YfxB/8S/KXAlhZXVhW9VKQmo7ynyOMCqZcTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:07:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dcqylvq4en"
+        },
+        {
+          "Name": "label",
+          "Value": "images/HBqueso.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WqnE4+YfxB/8S/KXAlhZXVhW9VKQmo7ynyOMCqZcTk="
+        }
+      ]
+    },
+    {
+      "Route": "images/HBqueso.jpeg",
+      "AssetFile": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\HBqueso.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WqnE4+YfxB/8S/KXAlhZXVhW9VKQmo7ynyOMCqZcTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:07:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WqnE4+YfxB/8S/KXAlhZXVhW9VKQmo7ynyOMCqZcTk="
+        }
+      ]
+    },
+    {
+      "Route": "images/Logoperucha.cxrh3j0b5l.jpeg",
+      "AssetFile": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\Logoperucha.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YIkGY4TvPj+mFMk512RV5NKvtnWm8dKz79mE+Wq44Pc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:08:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cxrh3j0b5l"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Logoperucha.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YIkGY4TvPj+mFMk512RV5NKvtnWm8dKz79mE+Wq44Pc="
+        }
+      ]
+    },
+    {
+      "Route": "images/Logoperucha.jpeg",
+      "AssetFile": "C:\\Users\\mathi\\Downloads\\Proyecto final Progra\\Proyecto_FinalProgra1\\wwwroot\\images\\Logoperucha.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YIkGY4TvPj+mFMk512RV5NKvtnWm8dKz79mE+Wq44Pc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 22:08:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YIkGY4TvPj+mFMk512RV5NKvtnWm8dKz79mE+Wq44Pc="
         }
       ]
     },
