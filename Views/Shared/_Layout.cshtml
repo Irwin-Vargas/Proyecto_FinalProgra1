@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Proyecto_FinalProgra1.styles.css" asp-append-version="true" />
+
     <style>
         .sidebar {
             height: 100vh;
@@ -153,11 +154,54 @@ else
         <div class="container">
             &copy; 2025 - LA Perucha - <a asp-controller="Home" asp-action="Privacy">Política de Privacidad</a>
         </div>
+        <!-- ChatBot simple sin API -->
+<div id="simple-chatbot" style="position: fixed; bottom: 20px; right: 20px; width: 280px; z-index: 9999;">
+    <button onclick="toggleChat()" style="border-radius: 50%; width: 60px; height: 60px; background-color: #ff6600; border: none;">
+        🤖
+    </button>
+    <div id="chat-box" style="display: none; background: white; border: 2px solid orange; border-radius: 10px; padding: 1rem; margin-top: 10px;">
+        <h5 style="text-align: center;">Asistente Simple</h5>
+        <div id="chat-content" style="height: 150px; overflow-y: auto; margin-bottom: 10px;"></div>
+        <input type="text" id="user-input" placeholder="Escribe algo..." class="form-control" />
+        <button onclick="sendMessage()" class="btn btn-warning mt-2 w-100">Enviar</button>
+    </div>
+</div>
+
+<script>
+    function toggleChat() {
+        const chat = document.getElementById("chat-box");
+        chat.style.display = chat.style.display === "none" ? "block" : "none";
+    }
+
+    function sendMessage() {
+        const input = document.getElementById("user-input");
+        const message = input.value.trim().toLowerCase();
+        const chat = document.getElementById("chat-content");
+
+        let respuesta = "No entiendo, ¿puedes repetir?";
+
+        if (message.includes("hola")) respuesta = "¡Hola! ¿Cómo puedo ayudarte?";
+        else if (message.includes("menu") || message.includes("comida")) respuesta = "Puedes ver nuestro menú en la sección 'Menú'.";
+        else if (message.includes("precio")) respuesta = "Los precios están en soles y se ven al lado de cada producto.";
+        else if (message.includes("pago")) respuesta = "Aceptamos tarjeta, PayPal y pagos en línea.";
+        else if (message.includes("gracias")) respuesta = "¡De nada! 😊";
+
+        chat.innerHTML += `<div><strong>Tú:</strong> ${input.value}</div>`;
+        chat.innerHTML += `<div><strong>IA:</strong> ${respuesta}</div>`;
+        chat.scrollTop = chat.scrollHeight;
+        input.value = "";
+    }
+</script>
+
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- ChatBot flotante -->
+    @await Html.PartialAsync("_ChatBot")
+
     @await RenderSectionAsync("Scripts", required: false)
 }
 </body>

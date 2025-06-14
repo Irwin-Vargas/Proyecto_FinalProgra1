@@ -1,0 +1,138 @@
+<!-- Views/Shared/_ChatBot.cshtml -->
+
+<div id="chatbot-container">
+    <div id="chatbot-button" onclick="toggleChat()">🤖</div>
+    <div id="chatbot-box" class="d-none">
+        <div class="chat-header">Asistente IA</div>
+        <div id="chat-log" class="chat-log"></div>
+        <div class="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Escribe tu mensaje..." />
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+</div>
+
+<style>
+    #chatbot-container {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    #chatbot-button {
+        background-color: #ff4e00;
+        color: white;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        font-size: 30px;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    #chatbot-box {
+        width: 320px;
+        height: 420px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin-top: 10px;
+    }
+
+    .chat-header {
+        background: #ff4e00;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .chat-log {
+        flex-grow: 1;
+        padding: 10px;
+        overflow-y: auto;
+        font-size: 14px;
+        background-color: #f9f9f9;
+    }
+
+    .chat-input-area {
+        display: flex;
+        border-top: 1px solid #ccc;
+    }
+
+    .chat-input-area input {
+        flex-grow: 1;
+        border: none;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .chat-input-area button {
+        background: #ff4e00;
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+
+    .chat-message {
+        margin-bottom: 8px;
+    }
+
+    .chat-message.user {
+        text-align: right;
+        color: #ff4e00;
+    }
+
+    .chat-message.bot {
+        text-align: left;
+        color: #333;
+    }
+</style>
+
+<script>
+    function toggleChat() {
+        const box = document.getElementById("chatbot-box");
+        box.classList.toggle("d-none");
+    }
+
+    async function sendMessage() {
+        const input = document.getElementById("chat-input");
+        const message = input.value.trim();
+        if (message === "") return;
+
+        appendMessage("user", message);
+        input.value = "";
+
+        try {
+            const response = await fetch("/api/Chat/Ask", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(message)
+            });
+
+            const data = await response.json();
+            appendMessage("bot", data.respuesta || "Sin respuesta");
+        } catch (error) {
+            appendMessage("bot", "Error al procesar la solicitud.");
+        }
+    }
+
+    function appendMessage(sender, text) {
+        const log = document.getElementById("chat-log");
+        const messageDiv = document.createElement("div");
+        messageDiv.classList.add("chat-message", sender);
+        messageDiv.innerText = text;
+        log.appendChild(messageDiv);
+        log.scrollTop = log.scrollHeight;
+    }
+</script>
