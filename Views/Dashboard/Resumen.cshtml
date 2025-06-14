@@ -3,8 +3,6 @@
     Layout = null;
 }
 
-@using System.Text.Json
-
 <h2 class="text-primary">📊 Resumen General</h2>
 
 <div class="row mt-4">
@@ -42,12 +40,8 @@
     </div>
 </div>
 
-<!-- RESEÑAS IA -->
 @{
     var resumen = (List<Proyecto_FinalProgra1.Models.VM.ReviewsSummaryVM>)ViewBag.ResumenResenias ?? new();
-    var productNames = resumen.Select(x => x.Producto).ToArray();
-    var positivePercents = resumen.Select(x => x.PorcentajePositivas).ToArray();
-    var negativePercents = resumen.Select(x => x.PorcentajeNegativas).ToArray();
 }
 
 @if (resumen.Any())
@@ -82,93 +76,3 @@
         </table>
     </div>
 }
-
-<!-- GRÁFICO DE VENTAS -->
-@{
-    var topVentas = (List<dynamic>)ViewBag.TopVentas ?? new();
-    var nombresTop = topVentas.Select(v => v.Producto).ToArray();
-    var cantidadesTop = topVentas.Select(v => (int)v.Total).ToArray();
-}
-
-@if (topVentas.Any())
-{
-    <hr />
-    <h3 class="mt-5 mb-3">🔥 Top 5 productos más vendidos</h3>
-    <div class="row">
-        <div class="col-md-12">
-            <canvas id="ventasChart" style="max-height: 350px;"></canvas>
-        </div>
-    </div>
-}
-
-<!-- GRÁFICO DE RESEÑAS -->
-@if (resumen.Any())
-{
-    <hr />
-    <h3 class="mt-5 mb-3">📈 Gráfico de reseñas (IA)</h3>
-    <div class="row">
-        <div class="col-md-12">
-            <canvas id="reseñasChart" style="max-height: 350px;"></canvas>
-        </div>
-    </div>
-}
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
-    // Ventas por producto
-    const ventasCtx = document.getElementById('ventasChart')?.getContext('2d');
-    if (ventasCtx) {
-        new Chart(ventasCtx, {
-            type: 'bar',
-            data: {
-                labels: @Html.Raw(JsonSerializer.Serialize(nombresTop)),
-                datasets: [{
-                    label: 'Unidades vendidas',
-                    data: @Html.Raw(JsonSerializer.Serialize(cantidadesTop)),
-                    backgroundColor: 'rgba(255, 193, 7, 0.7)'
-                }]
-            },
-            options: {
-                responsive: true,
-                plugins: {
-                    legend: { display: false },
-                    title: { display: true, text: 'Ventas por producto' }
-                }
-            }
-        });
-    }
-
-    // Reseñas por producto
-    const reseñasCtx = document.getElementById('reseñasChart')?.getContext('2d');
-    if (reseñasCtx) {
-        new Chart(reseñasCtx, {
-            type: 'bar',
-            data: {
-                labels: @Html.Raw(JsonSerializer.Serialize(productNames)),
-                datasets: [
-                    {
-                        label: '% Positivas',
-                        data: @Html.Raw(JsonSerializer.Serialize(positivePercents)),
-                        backgroundColor: 'rgba(25, 135, 84, 0.7)'
-                    },
-                    {
-                        label: '% Negativas',
-                        data: @Html.Raw(JsonSerializer.Serialize(negativePercents)),
-                        backgroundColor: 'rgba(220, 53, 69, 0.7)'
-                    }
-                ]
-            },
-            options: {
-                indexAxis: 'y',
-                responsive: true,
-                plugins: {
-                    legend: { position: 'top' },
-                    title: { display: true, text: 'Porcentaje de reseñas por producto' }
-                },
-                scales: {
-                    x: { beginAtZero: true, max: 100 }
-                }
-            }
-        });
-    }
-</script>
