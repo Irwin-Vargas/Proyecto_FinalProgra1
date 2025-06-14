@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Proyecto_FinalProgra1.Data;
 using Proyecto_FinalProgra1.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace Proyecto_FinalProgra1.Controllers
 {
@@ -16,17 +17,40 @@ namespace Proyecto_FinalProgra1.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly UserManager<IdentityUser> _userManager; // 1. Inyecta UserManager
 
-        public MenuItemController(ApplicationDbContext context, IWebHostEnvironment webHostEnvironment)
+        // 2. Modifica el constructor para recibir UserManager
+        public MenuItemController(ApplicationDbContext context, IWebHostEnvironment webHostEnvironment, UserManager<IdentityUser> userManager)
         {
             _context = context;
             _webHostEnvironment = webHostEnvironment;
+            _userManager = userManager;
         }
 
         public IActionResult Index()
         {
             var items = _context.MenuItem.Include(c => c.Category).ToList();
             return View(items);
+        }
+
+        // 3. Modifica Details para armar y pasar el diccionario de nombres
+        public IActionResult Details(int id)
+        {
+            var menuItem = _context.MenuItem
+                .Include(m => m.Category)
+                .Include(m => m.Reviews)
+                .FirstOrDefault(m => m.Id == id);
+
+            if (menuItem == null) return NotFound();
+
+            // Busca UserNames de quienes dejaron reseña
+            var userIds = menuItem.Reviews.Select(r => r.UserId).Distinct().ToList();
+            var users = _userManager.Users.Where(u => userIds.Contains(u.Id)).ToList();
+            var userNameDict = users.ToDictionary(u => u.Id, u => u.UserName);
+
+            ViewBag.UserNameDict = userNameDict;
+
+            return View(menuItem);
         }
 
         [Authorize(Roles = "Admin")]
@@ -43,7 +67,6 @@ namespace Proyecto_FinalProgra1.Controllers
         {
             if (ModelState.IsValid)
             {
-
                 if (imageFile != null)
                 {
                     string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images");
@@ -75,7 +98,6 @@ namespace Proyecto_FinalProgra1.Controllers
         }
 
         [Authorize(Roles = "Admin")]
-
         public IActionResult Edit(int? id)
         {
             if (id == null) return NotFound();
@@ -120,7 +142,6 @@ namespace Proyecto_FinalProgra1.Controllers
             ViewBag.CategoryList = new SelectList(_context.Category.ToList(), "Id", "CategoryName", menuItem.CategoryId);
             return View(menuItem);
         }
-
 
         [Authorize(Roles = "Admin")]
         public IActionResult Delete(int? id)

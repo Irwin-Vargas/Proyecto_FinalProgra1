@@ -19,7 +19,7 @@
 
 @if (!Model.Any())
 {
-    <div class="alert alert-warning text-center" >No hay productos disponibles.</div>
+    <div class="alert alert-warning text-center">No hay productos disponibles.</div>
 }
 else
 {
@@ -44,6 +44,11 @@ else
                             <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Editar</a>
                             <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Eliminar</a>
                         </div>
+                        <!-- También pueden ver detalles y reseñas -->
+                        <a asp-controller="MenuItem" asp-action="Details" asp-route-id="@item.Id"
+                           class="btn btn-outline-primary btn-sm w-100 mt-2">
+                            Ver detalles y reseñas
+                        </a>
                     }
                     else if (User.Identity.IsAuthenticated)
                     {
@@ -51,6 +56,17 @@ else
                             <input type="hidden" name="id" value="@item.Id" />
                             <button type="submit" class="btn btn-fastfood btn-sm w-100">Agregar al carrito</button>
                         </form>
+                        <a asp-controller="MenuItem" asp-action="Details" asp-route-id="@item.Id"
+                           class="btn btn-outline-primary btn-sm w-100 mt-2">
+                            Ver detalles y reseñas
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-controller="MenuItem" asp-action="Details" asp-route-id="@item.Id"
+                           class="btn btn-outline-primary btn-sm w-100 mt-2">
+                            Ver detalles y reseñas
+                        </a>
                     }
                 </div>
             </div>

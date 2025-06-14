@@ -22,5 +22,7 @@ namespace Proyecto_FinalProgra1.Data
         public DbSet<OrderDetail> OrderDetail { get; set; }
         public DbSet<OrderStatus> OrderStatus { get; set; }
         public DbSet<Stock> Stock { get; set; }
+        public DbSet<Review> Reviews { get; set; }
+
     }
 }

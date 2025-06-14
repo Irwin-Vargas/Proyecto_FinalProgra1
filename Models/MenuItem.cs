@@ -37,5 +37,6 @@ namespace Proyecto_FinalProgra1.Models
 
         [NotMapped]
         public int Quantity { get; set; }
+        public List<Review> Reviews { get; set; } = new();
     }
 }
