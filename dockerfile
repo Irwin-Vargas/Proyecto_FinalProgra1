@@ -12,8 +12,9 @@ RUN dotnet publish -c Release -o /out
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
 WORKDIR /app
 COPY --from=build /out .
-# Copiar explícitamente el modelo ML si no quedó en la publish
-COPY MLModels/product_popularity_model.zip ./MLModels/product_popularity_model.zip
+
+# Copia explícitamente la carpeta MLModels (y todo su contenido)
+COPY MLModels ./MLModels
 
 EXPOSE 80
 EXPOSE 443
