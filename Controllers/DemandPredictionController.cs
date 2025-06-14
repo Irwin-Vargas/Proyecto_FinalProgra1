@@ -1,16 +1,13 @@
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Proyecto_FinalProgra1.MLModels;
-using Proyecto_FinalProgra1.Models; 
+using Proyecto_FinalProgra1.Models;
 
 namespace Proyecto_FinalProgra1.Controllers
 {
     [Route("[controller]")]
+    [ApiExplorerSettings(IgnoreApi = true)] // 👈 Oculta todo el controlador de Swagger
     public class DemandPredictionController : Controller
     {
         private readonly ILogger<DemandPredictionController> _logger;
@@ -19,15 +16,16 @@ namespace Proyecto_FinalProgra1.Controllers
         public DemandPredictionController(ILogger<DemandPredictionController> logger)
         {
             _logger = logger;
-            _predictionModel = new DemandPredictionModel(); // Instancia del modelo
+            _predictionModel = new DemandPredictionModel();
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
 
-        [HttpGet("forecast")]
+        [HttpGet("forecast")] // 👈 Ahora explícitamente es GET
         public IActionResult Forecast([FromQuery] string productId, [FromQuery] float day)
         {
             try
@@ -48,7 +46,7 @@ namespace Proyecto_FinalProgra1.Controllers
             }
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        [HttpGet("error")] // 👈 Swagger ya lo reconoce como GET
         public IActionResult Error()
         {
             return View("Error!");

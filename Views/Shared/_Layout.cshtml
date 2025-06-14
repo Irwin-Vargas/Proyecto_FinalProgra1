@@ -89,6 +89,7 @@
             <a href="#" onclick="loadContent('/MenuItem/Index')">🍔 Productos</a>
             <a href="#" onclick="loadContent('/Stock/Index')">📦 Stock</a>
             <a href="#" onclick="loadContent('/AdminUser/Index')">📦 AdminUser</a>
+            <a href="/swagger" target="_blank">📘 Swagger Docs</a>
             <hr />
             <a href="/" class="text-warning">⬅ Volver al sitio</a>
         </div>
@@ -148,6 +149,9 @@ else
                         {
                             <li class="nav-item">
                                 <a class="nav-link text-warning" asp-controller="AdminPanel" asp-action="Index">Panel Admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-info" href="/swagger" target="_blank">📘 Swagger</a>
                             </li>
                         }
                     </ul>

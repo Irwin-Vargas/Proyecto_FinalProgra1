@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Http;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
+using Microsoft.OpenApi.Models; 
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,17 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddHttpClient<GeolocationService>();
 
+// 👉 Swagger config
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "Fast Food API",
+        Version = "v1",
+        Description = "Documentación de la API del sistema Fast Food"
+    });
+});
 // Base de datos PostgreSQL
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -81,6 +93,15 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
+}else
+{
+    // 👉 Mostrar Swagger solo en desarrollo
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fast Food API v1");
+        c.RoutePrefix = "swagger"; // accedes por /swagger
+    });
 }
 
 app.UseHttpsRedirection();
