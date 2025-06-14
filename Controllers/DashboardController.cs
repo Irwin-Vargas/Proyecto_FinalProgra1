@@ -37,11 +37,13 @@ namespace Proyecto_FinalProgra1.Controllers
                     Nombre = group.Key,
                     Total = group.Sum(x => x.Quantity)
                 }).ToList();
+
             ViewBag.VentasPorProducto = ventas;
-            ViewBag.TotalOrders = orders.Count;
-            ViewBag.TotalProducts = products.Count;
-            ViewBag.TotalCategories = categories.Count;
-            ViewBag.TotalStockItems = stocks.Count;
+            ViewBag.TotalPedidos = orders.Count;
+            ViewBag.Productos = products.Count;
+            ViewBag.Categorias = categories.Count;
+            ViewBag.Stock = stocks.Count;
+            ViewBag.Pendientes = orders.Count(o => o.OrderStatusId == 1);
 
             // --- Resumen de reseñas por producto (IA) ---
             var resumen = _context.MenuItem
@@ -65,11 +67,28 @@ namespace Proyecto_FinalProgra1.Controllers
 
         public IActionResult Resumen()
         {
-            ViewBag.TotalOrders = _context.Order.Count();
-            ViewBag.PedidosPendientes = _context.Order.Count(o => o.OrderStatusId == 1); // Suponiendo que 1 = Pendiente
-            ViewBag.TotalProducts = _context.MenuItem.Count();
-            ViewBag.TotalCategories = _context.Category.Count();
-            ViewBag.TotalStockItems = _context.Stock.Count();
+            ViewBag.TotalPedidos = _context.Order.Count();
+            ViewBag.Pendientes = _context.Order.Count(o => o.OrderStatusId == 1);
+            ViewBag.Productos = _context.MenuItem.Count();
+            ViewBag.Categorias = _context.Category.Count();
+            ViewBag.Stock = _context.Stock.Count();
+
+            // --- Resumen de reseñas por producto (IA) ---
+            var resumen = _context.MenuItem
+                .Include(mi => mi.Reviews)
+                .Select(mi => new ReviewsSummaryVM
+                {
+                    Producto = mi.ItemName,
+                    Total = mi.Reviews.Count(),
+                    Positivas = mi.Reviews.Count(r => r.SentimentPositive == true),
+                    Negativas = mi.Reviews.Count(r => r.SentimentPositive == false),
+                    PorcentajePositivas = mi.Reviews.Count() == 0 ? 0 : (int)(100.0 * mi.Reviews.Count(r => r.SentimentPositive == true) / mi.Reviews.Count()),
+                    PorcentajeNegativas = mi.Reviews.Count() == 0 ? 0 : (int)(100.0 * mi.Reviews.Count(r => r.SentimentPositive == false) / mi.Reviews.Count())
+                })
+                .OrderByDescending(x => x.PorcentajePositivas)
+                .ToList();
+
+            ViewBag.ResumenResenias = resumen;
 
             return View();
         }
