@@ -1,50 +1,227 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿@{
+    var controller = ViewContext.RouteData.Values["controller"]?.ToString();
+    var isDashboard = User.IsInRole("Admin") && new[] { "AdminPanel", "Resumen", "AdminOrder", "Category", "MenuItem", "Stock", "AdminUser"}.Contains(controller);
+}
+
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Proyecto_FinalProgra1</title>
-    <script type="importmap"></script>
+    <title>@ViewData["Title"] - FastFood Express</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Proyecto_FinalProgra1.styles.css" asp-append-version="true" />
+
+    <style>
+        .sidebar {
+            height: 100vh;
+            background-color: var(--fastfood-red);
+            color: white;
+            padding: 1.5rem 1rem;
+            min-width: 220px;
+        }
+
+        .sidebar a {
+            color: white;
+            display: block;
+            margin: 0.75rem 0;
+            text-decoration: none;
+            padding: 0.75rem 1rem;
+            border-radius: 0.6rem;
+            transition: background 0.2s ease, transform 0.2s ease;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        .sidebar a:hover {
+            background-color: #cc0000;
+            padding-left: 12px;
+            transform: scale(1.03);
+        }
+
+        .main-content {
+            padding: 2rem;
+            background-color: var(--fastfood-bg);
+        }
+
+        .navbar {
+            background-color: var(--fastfood-red) !important;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: var(--fastfood-white) !important;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav .nav-link {
+            color: var(--fastfood-white) !important;
+            font-weight: 900;
+            font-size: 1.1rem;
+            margin: 0 0.5rem;
+        }
+
+        .navbar-nav .nav-link.text-warning {
+            color: var(--fastfood-yellow) !important;
+        }
+
+        .footer {
+            background-color: var(--fastfood-yellow);
+            color: #333;
+            padding: 1rem 0;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
 <body>
+
+@if (isDashboard)
+{
+    <!-- PANEL LATERAL PARA ADMIN -->
+    <div class="d-flex">
+        <div class="sidebar">
+            <h5 class="text-warning">Admin Panel</h5>
+            <a href="#" onclick="loadContent('/Resumen/Index')">📊 Resumen</a>
+            <a href="#" onclick="loadContent('/AdminOrder/Index')">🧾 Pedidos</a>
+            <a href="#" onclick="loadContent('/Category/Index')">📂 Categorías</a>
+            <a href="#" onclick="loadContent('/MenuItem/Index')">🍔 Productos</a>
+            <a href="#" onclick="loadContent('/Stock/Index')">📦 Stock</a>
+            <a href="#" onclick="loadContent('/AdminUser/Index')">📦 AdminUser</a>
+            <a href="/swagger" target="_blank">📘 Swagger Docs</a>
+            <hr />
+            <a href="/" class="text-warning">⬅ Volver al sitio</a>
+        </div>
+        <div class="flex-grow-1 main-content" id="main-content">
+            @RenderBody()
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        function loadContent(url) {
+            $.get(url, function (data) {
+                const content = $('<div>').html(data);
+                const newContent = content.find('#main-content').length ? content.find('#main-content').html() : content;
+                $('#main-content').html(newContent);
+
+                const scripts = content.find('script');
+                scripts.each(function () {
+                    const script = document.createElement('script');
+                    script.text = this.text;
+                    document.body.appendChild(script);
+                });
+            });
+        }
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+}
+else
+{
+    <!-- LAYOUT NORMAL PARA USUARIOS -->
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm border-bottom shadow-sm mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Proyecto_FinalProgra1</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">🍟 LA Perucha</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" asp-controller="MenuItem" asp-action="Index">Menú</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="ShoppingCart" asp-action="Index">Carrito</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Order" asp-action="MyOrders">Mis Pedidos</a>
+                            </li>
+                        }
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-warning" asp-controller="AdminPanel" asp-action="Index">Panel Admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-info" href="/swagger" target="_blank">📘 Swagger</a>
+                            </li>
+                        }
+                    </ul>
+                    <ul class="navbar-nav">
+                        <partial name="_LoginPartial" />
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="footer">
         <div class="container">
-            &copy; 2025 - Proyecto_FinalProgra1 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2025 - LA Perucha - <a asp-controller="Home" asp-action="Privacy">Política de Privacidad</a>
         </div>
+
+        <!-- ChatBot simple sin API -->
+        <div id="independent-chatbot" style="position: fixed; bottom: 20px; left: 20px; z-index: 9999; width: 350px;">
+            <button onclick="toggleBotBubble()" style="border-radius: 50%; width: 70px; height: 70px; background-color: purple; border: none; color: white; font-size: 24px;">
+                🤖
+            </button>
+            <div id="bot-bubble" style="display: none; background: #fff; border: 3px solid purple; border-radius: 15px; padding: 1rem; margin-top: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
+                <h5 style="text-align: center; color: purple;">Asistente Simple</h5>
+                <div id="bot-messages" style="height: 220px; overflow-y: auto; border: 1px solid #ccc; padding: 0.5rem; margin-bottom: 10px; font-size: 15px;"></div>
+                <input type="text" id="bot-input" placeholder="Escribe aquí..." class="form-control" style="margin-bottom: 5px;" />
+                <button onclick="sendBotMessage()" class="btn btn-outline-primary w-100">Enviar</button>
+            </div>
+        </div>
+
+        <script>
+            function toggleBotBubble() {
+                const bubble = document.getElementById("bot-bubble");
+                bubble.style.display = bubble.style.display === "none" ? "block" : "none";
+            }
+
+            function sendBotMessage() {
+                const input = document.getElementById("bot-input");
+                const message = input.value.trim().toLowerCase();
+                const chat = document.getElementById("bot-messages");
+
+                if (message === "") return;
+
+                let respuesta = "Lo siento, no entendí. ¿Puedes repetirlo?";
+                if (message.includes("hola")) respuesta = "¡Hola! ¿Cómo estás?";
+                else if (message.includes("menú") || message.includes("menu")) respuesta = "Puedes ver el menú en la sección superior llamada 'Menú'.";
+                else if (message.includes("precio")) respuesta = "Los precios están junto a cada producto en la página del menú.";
+                else if (message.includes("pago")) respuesta = "Aceptamos pagos con tarjeta, PayPal y Yape.";
+                else if (message.includes("gracias")) respuesta = "¡De nada! 😊";
+
+                chat.innerHTML += `<div><strong>Tú:</strong> ${input.value}</div>`;
+                chat.innerHTML += `<div><strong>Bot:</strong> ${respuesta}</div>`;
+                chat.scrollTop = chat.scrollHeight;
+                input.value = "";
+            }
+        </script>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await Html.PartialAsync("_ChatBot")
+
     @await RenderSectionAsync("Scripts", required: false)
+}
 </body>
 </html>

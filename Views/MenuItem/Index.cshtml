@@ -1,0 +1,114 @@
+@model IEnumerable<Proyecto_FinalProgra1.Models.MenuItem>
+@{
+    ViewData["Title"] = "Menú";
+}
+
+<h2 class="text-center text-highlight mb-4">🍔 Menú de Comida</h2>
+
+@if (TempData["success"] != null)
+{
+    <div class="alert alert-success text-center">@TempData["success"]</div>
+}
+
+@if (ViewBag.Recomendados != null && ((List<Proyecto_FinalProgra1.Models.MenuItem>)ViewBag.Recomendados).Any())
+{
+    <div class="mb-5">
+        <h3 class="text-success mb-3">🌟 Recomendados para ti (IA)</h3>
+        <div id="recomendadosCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                @{
+                    var recomendados = (List<Proyecto_FinalProgra1.Models.MenuItem>)ViewBag.Recomendados;
+                    for (int i = 0; i < recomendados.Count; i++)
+                    {
+                        var item = recomendados[i];
+                        <div class="carousel-item @(i == 0 ? "active" : "")">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img src="@item.Image" class="card-img-top" alt="@item.ItemName" style="height: 180px; object-fit: cover;">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">@item.ItemName</h5>
+                                    <p class="card-text">@item.Description</p>
+                                    <a href="@Url.Action("Details", "MenuItem", new { id = item.Id })" class="btn btn-outline-primary btn-sm">Ver detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#recomendadosCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#recomendadosCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+}
+
+@if (User.IsInRole("Admin"))
+{
+    <div class="text-end mb-3">
+        <a asp-action="Create" class="btn btn-fastfood">Agregar Producto</a>
+    </div>
+}
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning text-center">No hay productos disponibles.</div>
+}
+else
+{
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card-fastfood h-100 text-center">
+                    @if (!string.IsNullOrEmpty(item.Image))
+                    {
+                        <img src="@item.Image" alt="@item.ItemName" class="img-fluid rounded mb-3" style="max-height: 200px; object-fit: cover;" />
+                    }
+
+                    <h5 class="text-highlight fw-bold">@item.ItemName</h5>
+                    <p>@item.Description</p>
+                    <p><strong>Categoría:</strong> @item.Category?.CategoryName</p>
+                    <p><span class="badge bg-warning text-dark">S/. @item.Price.ToString("0.00")</span></p>
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <div class="d-flex justify-content-center gap-2">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Editar</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                        </div>
+                        <a asp-controller="MenuItem" asp-action="Details" asp-route-id="@item.Id"
+                           class="btn btn-outline-primary btn-sm w-100 mt-2">
+                            Ver detalles y reseñas
+                        </a>
+                    }
+                    else if (User.Identity.IsAuthenticated)
+                    {
+                        <form asp-controller="ShoppingCart" asp-action="AddToCart" method="post" class="mt-2">
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <button type="submit" class="btn btn-fastfood btn-sm w-100">Agregar al carrito</button>
+                        </form>
+                        <a asp-controller="MenuItem" asp-action="Details" asp-route-id="@item.Id"
+                           class="btn btn-outline-primary btn-sm w-100 mt-2">
+                            Ver detalles y reseñas
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-controller="MenuItem" asp-action="Details" asp-route-id="@item.Id"
+                           class="btn btn-outline-primary btn-sm w-100 mt-2">
+                            Ver detalles y reseñas
+                        </a>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+}

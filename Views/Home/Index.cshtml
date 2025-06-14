@@ -1,8 +1,96 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    .hero {
+        background: linear-gradient(135deg, #ff4e00, #ec9f05);
+        color: white;
+        padding: 5rem 2rem;
+        text-align: center;
+        border-radius: 1rem;
+        margin-bottom: 3rem;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hero-logo {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        width: 120px;
+        height: auto;
+        border-radius: 1rem;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        background-color: white;
+        padding: 0.5rem;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .hero p {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-top: 0.5rem;
+    }
+
+    .features {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 0 1rem 2rem 1rem;
+    }
+
+    .feature-box {
+        background: white;
+        color: #b30000;
+        border: 3px solid #ffd700;
+        border-radius: 1rem;
+        padding: 2rem;
+        text-align: center;
+        width: 300px;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .feature-box:hover {
+        transform: translateY(-5px);
+    }
+
+    .feature-box h3 {
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    .feature-box p {
+        font-size: 1.05rem;
+    }
+</style>
+
+<div class="hero">
+    <!-- Logo opcional -->
+    <h1><span data-translate>¡Bienvenido a</span> <span style="color: #fff200;">LA PERUCHA</span><span data-translate>!</span></h1>
+    <p><span data-translate>Comida rápida, deliciosa y al instante. ¡Haz tu pedido ahora!</span></p>
+</div>
+
+<div class="features">
+    <div class="feature-box">
+        <h3><span data-translate>🍔 Menú Variado</span></h3>
+        <p><span data-translate>Disfruta de hamburguesas, papas, combos y más.</span></p>
+    </div>
+    <div class="feature-box">
+        <h3><span data-translate>🚀 Entrega Rápida</span></h3>
+        <p><span data-translate>Tu pedido listo en minutos, directo a tu puerta.</span></p>
+    </div>
+    <div class="feature-box">
+        <h3><span data-translate>💳 Pago Seguro</span></h3>
+        <p><span data-translate>Aceptamos tarjetas, billeteras digitales y más.</span></p>
+    </div>
 </div>

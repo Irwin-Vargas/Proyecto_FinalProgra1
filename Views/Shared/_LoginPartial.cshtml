@@ -1,0 +1,17 @@
+@using Microsoft.AspNetCore.Identity
+@using Proyecto_FinalProgra1.Models
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <form asp-area="Identity" asp-page="/Account/Logout" method="post" class="d-inline">
+        <span class="text-light me-2">Hola, @User.Identity?.Name</span>
+        <button type="submit" class="btn btn-outline-light btn-sm">Cerrar sesión</button>
+    </form>
+}
+else
+{
+    <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-outline-light btn-sm me-2">Iniciar sesión</a>
+    <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-primary btn-sm">Registrarse</a>
+}

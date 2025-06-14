@@ -1,0 +1,37 @@
+@model Proyecto_FinalProgra1.Models.Order
+
+@{
+    ViewData["Title"] = "Detalle del Pedido";
+}
+
+<h2 class="text-primary">Detalle del Pedido</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio Unitario</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.OrderDetail)
+    {
+        <tr>
+            <td>@item.MenuItem.ItemName</td>
+            <td>@item.Quantity</td>
+            <td>S/ @item.UnitPrice.ToString("0.00")</td>
+            <td>S/ @(item.UnitPrice * item.Quantity).ToString("0.00")</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<p><strong>Dirección:</strong> @Model.Address</p>
+<p><strong>Fecha:</strong> @Model.CreateDate.ToLocalTime().ToString("g")</p>
+<p><strong>Estado:</strong> @Model.OrderStatus?.StatusName</p>
+<p><strong>Método de pago:</strong> @Model.PaymentMethod</p>
+<p><strong>Total:</strong> S/ @Model.OrderDetail.Sum(x => x.Quantity * x.UnitPrice).ToString("0.00")</p>
+
+<a asp-controller="Order" asp-action="MyOrders" class="btn btn-secondary">Volver</a>

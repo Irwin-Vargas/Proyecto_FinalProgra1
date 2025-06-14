@@ -1,0 +1,16 @@
+@model Proyecto_FinalProgra1.Models.Stock
+@{
+    ViewData["Title"] = "Eliminar Stock";
+}
+
+<h2 class="text-danger">❌ Confirmar Eliminación</h2>
+
+<div class="alert alert-danger">
+    ¿Estás seguro que deseas eliminar el stock para el producto <strong>@Model.MenuItem?.ItemName</strong>?
+</div>
+
+<form asp-action="DeleteConfirmed">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

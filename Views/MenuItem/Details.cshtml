@@ -1,0 +1,85 @@
+@model Proyecto_FinalProgra1.Models.MenuItem
+
+@{
+    ViewData["Title"] = Model.ItemName;
+    // Recibe el diccionario de UserNames pasado por ViewBag
+    var userNames = (Dictionary<string, string>)ViewBag.UserNameDict ?? new Dictionary<string, string>();
+}
+
+<div class="container mt-5">
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                @if (!string.IsNullOrEmpty(Model.Image))
+                {
+                    <img src="@Model.Image" class="card-img-top" alt="@Model.ItemName" style="max-height:300px;object-fit:cover;">
+                }
+                <div class="card-body">
+                    <h2 class="card-title">@Model.ItemName</h2>
+                    <p class="card-text">@Model.Description</p>
+                    <h4 class="text-primary">Precio: $@Model.Price</h4>
+                    @if (Model.Category != null)
+                    {
+                        <span class="badge bg-secondary">@Model.Category.CategoryName</span>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h4>Reseñas de clientes</h4>
+                    @if (Model.Reviews != null && Model.Reviews.Count > 0)
+                    {
+                        <ul class="list-group list-group-flush">
+                        @foreach (var review in Model.Reviews.OrderByDescending(r => r.CreatedAt))
+                        {
+                            var userName = userNames.ContainsKey(review.UserId) ? userNames[review.UserId] : "Usuario";
+                            <li class="list-group-item">
+                                <span class="fw-bold">@userName</span>
+                                <span class="text-muted">(@review.CreatedAt.ToShortDateString())</span>
+                                @if (review.SentimentPositive != null)
+                                {
+                                    <span class="ms-2 badge @(review.SentimentPositive.Value ? "bg-success" : "bg-danger")">
+                                        @(review.SentimentPositive.Value ? "Positiva" : "Negativa")
+                                    </span>
+                                }
+                                <br />
+                                <span>@review.Comment</span>
+                            </li>
+                        }
+                        </ul>
+                    }
+                    else
+                    {
+                        <p class="text-muted">Aún no hay reseñas para este producto.</p>
+                    }
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <h5>Agregar una reseña</h5>
+                        <form asp-controller="Reviews" asp-action="AddReview" method="post">
+                            <div class="mb-3">
+                                <textarea name="comment" class="form-control" rows="3" required placeholder="Escribe tu reseña aquí"></textarea>
+                            </div>
+                            <input type="hidden" name="menuItemId" value="@Model.Id" />
+                            <button type="submit" class="btn btn-success">Enviar reseña</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <div class="alert alert-info mb-0">
+                            <a href="/Identity/Account/Login">Inicia sesión</a> para dejar una reseña.
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

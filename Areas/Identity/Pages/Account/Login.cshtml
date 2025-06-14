@@ -1,0 +1,130 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Iniciar Sesión";
+}
+
+<style>
+    .auth-box {
+        background-color: white;
+        border-radius: 1rem;
+        padding: 2rem;
+        border: 2px solid var(--fastfood-yellow);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .auth-box h2, h3 {
+        color: var(--fastfood-red);
+        font-weight: bold;
+    }
+
+    .form-floating input {
+        border: 2px solid var(--fastfood-yellow);
+        border-radius: 0.75rem;
+        padding: 1rem;
+        font-size: 1rem;
+        transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .form-floating input:focus {
+        border-color: var(--fastfood-red);
+        box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.25);
+    }
+
+    .form-label {
+        color: var(--fastfood-dark);
+        font-weight: 500;
+    }
+
+    .btn-fastfood {
+        background: linear-gradient(135deg, #ff0000, #ff6600);
+        color: white;
+        font-weight: bold;
+        border: none;
+        padding: 0.75rem 1rem;
+        border-radius: 0.75rem;
+        font-size: 1rem;
+        transition: background 0.3s ease;
+    }
+
+    .btn-fastfood:hover {
+        background: linear-gradient(135deg, #cc0000, #e65c00);
+    }
+
+    .btn-fastfood-social {
+        margin: 0.25rem;
+        border-radius: 0.5rem;
+    }
+</style>
+
+<h1 class="text-center text-highlight mb-4">@ViewData["Title"]</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <section class="auth-box">
+            <form id="account" method="post">
+                <h2 class="text-center mb-3">Accede a tu cuenta</h2>
+                <hr />
+                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                    <label asp-for="Input.Email" class="form-label">Email</label>
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="Contraseña" />
+                    <label asp-for="Input.Password" class="form-label">Contraseña</label>
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input class="form-check-input" asp-for="Input.RememberMe" />
+                    <label class="form-check-label" asp-for="Input.RememberMe">
+                        @Html.DisplayNameFor(m => m.Input.RememberMe)
+                    </label>
+                </div>
+
+                <div class="d-grid">
+                    <button id="login-submit" type="submit" class="btn btn-fastfood">Iniciar Sesión</button>
+                </div>
+
+                <div class="mt-3 text-center">
+                    <p><a id="forgot-password" asp-page="./ForgotPassword">¿Olvidaste tu contraseña?</a></p>
+                    <p><a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">¿No tienes cuenta? Regístrate</a></p>
+                    <p><a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Reenviar confirmación de correo</a></p>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <div class="col-md-6 col-md-offset-2">
+        <section class="auth-box">
+            <h3 class="text-center">Accede con otra cuenta</h3>
+            <hr />
+            @if ((Model.ExternalLogins?.Count ?? 0) == 0)
+            {
+                <div class="text-center">
+                    <p>No hay servicios externos configurados. <a href="https://go.microsoft.com/fwlink/?LinkID=532715">Ver guía de configuración</a>.</p>
+                </div>
+            }
+            else
+            {
+                <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal text-center">
+                    @foreach (var provider in Model.ExternalLogins!)
+                    {
+                        <button type="submit" class="btn btn-outline-danger btn-fastfood-social" name="provider" value="@provider.Name" title="Iniciar con @provider.DisplayName">
+                            @provider.DisplayName
+                        </button>
+                    }
+                </form>
+            }
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

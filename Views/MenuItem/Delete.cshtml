@@ -1,0 +1,31 @@
+@model Proyecto_FinalProgra1.Models.MenuItem
+@{
+    ViewData["Title"] = "Eliminar Producto";
+}
+
+<h2 class="text-danger">¿Seguro que querés eliminar este producto?</h2>
+
+<div class="mb-3">
+    <label class="form-label">Nombre:</label>
+    <p class="form-control-plaintext">@Model.ItemName</p>
+</div>
+<div class="mb-3">
+    <label class="form-label">Categoría:</label>
+    <p class="form-control-plaintext">@Model.Category?.CategoryName</p>
+</div>
+<div class="mb-3">
+    <label class="form-label">Precio:</label>
+    <p class="form-control-plaintext">$@Model.Price</p>
+</div>
+@if (!string.IsNullOrEmpty(Model.Image))
+{
+    <div class="mb-3">
+        <img src="@Model.Image" width="120" height="120" />
+    </div>
+}
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

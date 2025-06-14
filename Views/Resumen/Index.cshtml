@@ -1,0 +1,123 @@
+@{
+    ViewData["Title"] = "Resumen del Panel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-primary mb-4">📊 Resumen General</h2>
+
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="card text-white bg-primary shadow">
+            <div class="card-body">
+                <h5 class="card-title">Total Pedidos</h5>
+                <p class="card-text fs-4">@ViewBag.TotalPedidos</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-success shadow">
+            <div class="card-body">
+                <h5 class="card-title">Pedidos Pendientes</h5>
+                <p class="card-text fs-4">@ViewBag.Pendientes</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-warning shadow">
+            <div class="card-body">
+                <h5 class="card-title">Productos</h5>
+                <p class="card-text fs-4">@ViewBag.Productos</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-info shadow">
+            <div class="card-body">
+                <h5 class="card-title">Categorías</h5>
+                <p class="card-text fs-4">@ViewBag.Categorias</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@{
+    var resumen = (List<Proyecto_FinalProgra1.Models.VM.ReviewsSummaryVM>)ViewBag.ResumenResenias ?? new();
+}
+
+@if (resumen.Any())
+{
+    <hr />
+    <h3 class="mb-3"><span class="me-2">💬</span> Reseñas por producto (IA)</h3>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead class="table-light">
+                <tr>
+                    <th>Producto</th>
+                    <th>Total</th>
+                    <th>Positivas</th>
+                    <th>Negativas</th>
+                    <th>% Positivas</th>
+                    <th>% Negativas</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in resumen)
+                {
+                    <tr>
+                        <td>@item.Producto</td>
+                        <td>@item.Total</td>
+                        <td><span class="badge bg-success">@item.Positivas</span></td>
+                        <td><span class="badge bg-danger">@item.Negativas</span></td>
+                        <td><span class="badge bg-success">@item.PorcentajePositivas %</span></td>
+                        <td><span class="badge bg-danger">@item.PorcentajeNegativas %</span></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+<hr />
+<h3 class="mt-5 mb-3 text-primary"><span class="me-2">🧑‍💻</span>Predicción de Demanda (ML.NET)</h3>
+<div class="card shadow mb-5">
+    <div class="card-body">
+        <form id="predict-form" class="row g-2">
+            <div class="col-md-4">
+                <input type="number" name="day" class="form-control border-warning" placeholder="Día (número)" min="1" required />
+            </div>
+            <div class="col-md-4">
+                <input type="text" name="productId" class="form-control border-warning" placeholder="ID de Producto" required />
+            </div>
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-primary w-100">Predecir</button>
+            </div>
+        </form>
+        <div id="prediccion-container" style="display:none;">
+            <div class="alert alert-success mt-3" id="prediccion-result"></div>
+        </div>
+        <div id="prediccion-error" style="display:none;">
+            <div class="alert alert-danger mt-3"></div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $("#predict-form").submit(function (e) {
+            e.preventDefault();
+            $("#prediccion-container").hide();
+            $("#prediccion-error").hide();
+            var data = $(this).serialize();
+            $.post('@Url.Action("PredecirDemanda", "Resumen")', data, function (result) {
+                if (result.success) {
+                    $("#prediccion-result").html(result.message);
+                    $("#prediccion-container").slideDown();
+                } else {
+                    $("#prediccion-error .alert").html(result.message);
+                    $("#prediccion-error").slideDown();
+                }
+            });
+        });
+    </script>
+}

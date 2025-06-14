@@ -1,0 +1,1321 @@
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\appsettings.Development.json
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\appsettings.json
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.staticwebassets.runtime.json
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.staticwebassets.endpoints.json
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.exe
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.deps.json
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.runtimeconfig.json
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.pdb
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Azure.Core.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Azure.Identity.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Humanizer.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Build.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Npgsql.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Common.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Configuration.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Frameworks.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.LibraryModel.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Packaging.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.ProjectModel.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Protocol.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Versioning.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.ClientModel.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.CodeDom.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Formats.Asn1.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Memory.Data.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Text.Json.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\af\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ar\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\az\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\bg\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\da\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\el\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\fa\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\he\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\hr\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\hu\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\hy\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\id\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\is\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ku\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\lv\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\mt\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\nb\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\nl\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pt\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ro\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\sk\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\sl\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\sr\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\sv\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\uk\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\vi\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.csproj.AssemblyReference.cache
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.AssemblyInfoInputs.cache
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.AssemblyInfo.cs
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.csproj.CoreCompileInputs.cache
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.MvcApplicationPartsAssemblyInfo.cs
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.MvcApplicationPartsAssemblyInfo.cache
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.RazorAssemblyInfo.cache
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.RazorAssemblyInfo.cs
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.sourcelink.json
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\scopedcss\bundle\Proyecto_FinalProgra1.styles.css
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\scopedcss\projectbundle\Proyecto_FinalProgra1.bundle.scp.css
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\6zgx8s5axt-61n19gt1b8.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\letirb5ita-xtxxf3hu2r.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\w0nzj2duif-t1cqhe9u97.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\btmehmbz0y-c2jlpeoesf.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\1amymy33ly-sejl45xvog.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\4dmkc5xbb0-aexeepp0ev.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\n8sbnzt0sx-xvp3kq03qx.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\xqw78zhhgk-ausgxo2sd3.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\i3zad0jei4-22vffe00uq.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\zxno95zycp-cosvhxvwiu.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nq7isow5xj-qesaa3a1fm.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\zet00eebv3-fvhpjtyr6v.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\t9qb30gx79-tmc1g35s3z.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\283m727s87-fsbi9cje9m.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\jn2yp9sa4w-rxsg74s51o.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\48lnixu25m-ee0r1s7dh0.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\of616ql6sn-q9ht133ko3.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ikk6oqfwu4-jd9uben2k1.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\r1uu4nr89i-gye83jo8yx.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ngg59761m3-r4e9w2rdcm.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\iw7wjzwdog-wl58j5mj3v.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\3cbtikjuie-c2oey78nd0.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\e9k19xld02-d4r6k3f320.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\376ozvll3z-j5mq2jizvt.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\jvdiysrgy9-keugtjm085.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\0oxdsvlq8h-nvvlpmu67g.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\xys2lrdxn6-zub09dkrxp.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\0krgqsuhtu-pj5nd1wqec.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\q1dpb5ei6y-43atpzeawx.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vbzx67wpy6-v0zj4ognzu.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\m6ie76s45u-ynyaa8k90p.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\tc4vvhjczz-hrwsygsryq.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\qu5c76q6q8-c63t5i9ira.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\8smvogc1wq-ft3s53vfgj.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\c9cosh9u5e-4094rpi4f9.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\8xa9eswpi9-6pdc2jztkx.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\9iin982qq5-hd3gran6i8.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vtyoxs3s8e-iovd86k7lj.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\6taqlf1lvo-ltid2c489k.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\4o87z31q84-kbrnm935zg.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\yhxo3wozas-8vyfqsqgz1.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\m96bvep2gz-y7v9cxd14o.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ubicl942fa-u9q1upor1n.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\bm0qunz9r4-h1s4sie4z3.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\yzajpj9fd9-4d85u1mtcx.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\z306unygqd-0j3bgjxly4.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\e5tafz8qdv-03hjc8e09r.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nxlkwselin-48y08845bh.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\4538cppz44-356vix0kms.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\3jre1yc6wz-83jwlth58m.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\lq7imbe940-mrlpezrjn3.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\inxu5sbegr-worgj0nhwm.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nk2w5ltziu-gk0pw8i4co.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\qp6d949m51-x0q3zqp4vz.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\pubbivt3pb-d6nrnj6jjx.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\qp2nz1hbzv-m9qm4tazc0.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\r8jcppxlzs-ttgo8qnofa.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\cx01as5fxt-jjsuc0puko.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vy4grc429l-9vr69e8ynj.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\o3bih9g15b-87fc7y1x7t.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\dt81rza4tg-mlv21k5csn.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\uinasj2onz-mb3967wpyd.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\c609oh4frk-mb3967wpyd.gz
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets.build.json
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets.development.json
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets\msbuild.Proyecto_FinalProgra1.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets\msbuild.Proyecto_FinalProgra1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets\msbuild.build.Proyecto_FinalProgra1.props
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Proyecto_FinalProgra1.props
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Proyecto_FinalProgra1.props
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets.pack.json
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto.32E46CC6.Up2Date
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\refint\Proyecto_FinalProgra1.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.pdb
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.genruntimeconfig.cache
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\ref\Proyecto_FinalProgra1.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\appsettings.json
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.staticwebassets.runtime.json
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.staticwebassets.endpoints.json
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.exe
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.deps.json
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.runtimeconfig.json
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.pdb
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Humanizer.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Build.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Npgsql.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Common.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Configuration.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Frameworks.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.LibraryModel.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Packaging.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.ProjectModel.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Protocol.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Versioning.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Formats.Asn1.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Text.Json.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\af\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ar\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\az\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\bg\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\da\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\el\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\fa\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\he\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\hr\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\hu\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\hy\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\id\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\is\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ku\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\lv\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\mt\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\nb\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\nl\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pt\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ro\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\sk\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\sl\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\sr\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\sv\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\uk\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\vi\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.csproj.AssemblyReference.cache
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.AssemblyInfoInputs.cache
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.AssemblyInfo.cs
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.csproj.CoreCompileInputs.cache
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.RazorAssemblyInfo.cache
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.RazorAssemblyInfo.cs
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.sourcelink.json
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\scopedcss\bundle\Proyecto_FinalProgra1.styles.css
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\scopedcss\projectbundle\Proyecto_FinalProgra1.bundle.scp.css
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\2vq28k8zjp-f118m0uj92.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\6zgx8s5axt-61n19gt1b8.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\letirb5ita-xtxxf3hu2r.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\w0nzj2duif-t1cqhe9u97.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\btmehmbz0y-c2jlpeoesf.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\1amymy33ly-sejl45xvog.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\4dmkc5xbb0-aexeepp0ev.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\n8sbnzt0sx-xvp3kq03qx.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\xqw78zhhgk-ausgxo2sd3.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\i3zad0jei4-22vffe00uq.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\zxno95zycp-cosvhxvwiu.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nq7isow5xj-qesaa3a1fm.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\zet00eebv3-fvhpjtyr6v.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\t9qb30gx79-tmc1g35s3z.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\283m727s87-fsbi9cje9m.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\jn2yp9sa4w-rxsg74s51o.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\48lnixu25m-ee0r1s7dh0.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\of616ql6sn-q9ht133ko3.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ikk6oqfwu4-jd9uben2k1.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\r1uu4nr89i-gye83jo8yx.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ngg59761m3-r4e9w2rdcm.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\iw7wjzwdog-wl58j5mj3v.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\3cbtikjuie-c2oey78nd0.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\e9k19xld02-d4r6k3f320.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\376ozvll3z-j5mq2jizvt.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\jvdiysrgy9-keugtjm085.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\0oxdsvlq8h-nvvlpmu67g.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\xys2lrdxn6-zub09dkrxp.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\0krgqsuhtu-pj5nd1wqec.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\q1dpb5ei6y-43atpzeawx.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vbzx67wpy6-v0zj4ognzu.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\m6ie76s45u-ynyaa8k90p.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\tc4vvhjczz-hrwsygsryq.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\qu5c76q6q8-c63t5i9ira.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\8smvogc1wq-ft3s53vfgj.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\c9cosh9u5e-4094rpi4f9.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\8xa9eswpi9-6pdc2jztkx.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\9iin982qq5-hd3gran6i8.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vtyoxs3s8e-iovd86k7lj.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\6taqlf1lvo-ltid2c489k.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\4o87z31q84-kbrnm935zg.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\yhxo3wozas-8vyfqsqgz1.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\m96bvep2gz-y7v9cxd14o.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ubicl942fa-u9q1upor1n.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\bm0qunz9r4-h1s4sie4z3.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\yzajpj9fd9-4d85u1mtcx.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\z306unygqd-0j3bgjxly4.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\e5tafz8qdv-03hjc8e09r.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nxlkwselin-48y08845bh.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\4538cppz44-356vix0kms.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\3jre1yc6wz-83jwlth58m.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\lq7imbe940-mrlpezrjn3.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\inxu5sbegr-worgj0nhwm.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nk2w5ltziu-gk0pw8i4co.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\qp6d949m51-x0q3zqp4vz.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\pubbivt3pb-d6nrnj6jjx.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\qp2nz1hbzv-m9qm4tazc0.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\r8jcppxlzs-ttgo8qnofa.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\cx01as5fxt-jjsuc0puko.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vy4grc429l-9vr69e8ynj.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\o3bih9g15b-87fc7y1x7t.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\dt81rza4tg-mlv21k5csn.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\uinasj2onz-mb3967wpyd.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\c609oh4frk-mb3967wpyd.gz
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets\msbuild.Proyecto_FinalProgra1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets\msbuild.Proyecto_FinalProgra1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets\msbuild.build.Proyecto_FinalProgra1.props
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Proyecto_FinalProgra1.props
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Proyecto_FinalProgra1.props
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto.32E46CC6.Up2Date
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\refint\Proyecto_FinalProgra1.dll
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.pdb
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.genruntimeconfig.cache
+C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\ref\Proyecto_FinalProgra1.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.Core.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.Data.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.KMeansClustering.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.PCA.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.StandardTrainers.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.Transforms.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.CpuMath.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.DataView.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Numerics.Tensors.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-arm\native\libLdaNative.so
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-arm\native\libLdaNative.so.dbg
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-arm64\native\libLdaNative.so
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-arm64\native\libLdaNative.so.dbg
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-x64\native\libLdaNative.so
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-x64\native\libLdaNative.so.dbg
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-arm64\native\libLdaNative.dylib
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-arm64\native\libLdaNative.dylib.dwarf
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-x64\native\libLdaNative.dylib
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-x64\native\libLdaNative.dylib.dwarf
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-arm64\native\LdaNative.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x64\native\LdaNative.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x86\native\LdaNative.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.FastTree.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-x64\native\libFastTreeNative.so
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-x64\native\libFastTreeNative.so.dbg
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-x64\native\libFastTreeNative.dylib
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-x64\native\libFastTreeNative.dylib.dwarf
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x64\native\FastTreeNative.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x86\native\FastTreeNative.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\2vq28k8zjp-g7900ry4n9.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\appsettings.json
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.staticwebassets.runtime.json
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.staticwebassets.endpoints.json
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.exe
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.deps.json
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.runtimeconfig.json
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Proyecto_FinalProgra1.pdb
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Humanizer.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Build.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.Core.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.Data.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.KMeansClustering.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.PCA.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.StandardTrainers.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.Transforms.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.CpuMath.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.DataView.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.FastTree.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Npgsql.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Common.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Configuration.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Frameworks.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.LibraryModel.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Packaging.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.ProjectModel.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Protocol.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\NuGet.Versioning.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Formats.Asn1.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Numerics.Tensors.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Text.Json.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\af\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ar\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\az\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\bg\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\da\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\el\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\fa\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\he\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\hr\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\hu\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\hy\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\id\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\is\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ku\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\lv\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\mt\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\nb\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\nl\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pt\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ro\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\sk\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\sl\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\sr\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\sv\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\uk\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\vi\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-arm\native\libLdaNative.so
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-arm\native\libLdaNative.so.dbg
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-arm64\native\libLdaNative.so
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-arm64\native\libLdaNative.so.dbg
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-x64\native\libLdaNative.so
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-x64\native\libLdaNative.so.dbg
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-arm64\native\libLdaNative.dylib
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-arm64\native\libLdaNative.dylib.dwarf
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-x64\native\libLdaNative.dylib
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-x64\native\libLdaNative.dylib.dwarf
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-arm64\native\LdaNative.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x64\native\LdaNative.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x86\native\LdaNative.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-x64\native\libFastTreeNative.so
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-x64\native\libFastTreeNative.so.dbg
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-x64\native\libFastTreeNative.dylib
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-x64\native\libFastTreeNative.dylib.dwarf
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x64\native\FastTreeNative.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x86\native\FastTreeNative.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.csproj.AssemblyReference.cache
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.AssemblyInfoInputs.cache
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.AssemblyInfo.cs
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.csproj.CoreCompileInputs.cache
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.RazorAssemblyInfo.cache
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.RazorAssemblyInfo.cs
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.sourcelink.json
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\scopedcss\bundle\Proyecto_FinalProgra1.styles.css
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\scopedcss\projectbundle\Proyecto_FinalProgra1.bundle.scp.css
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\2vq28k8zjp-g7900ry4n9.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\6zgx8s5axt-61n19gt1b8.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\letirb5ita-xtxxf3hu2r.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\w0nzj2duif-t1cqhe9u97.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\btmehmbz0y-c2jlpeoesf.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\1amymy33ly-sejl45xvog.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\4dmkc5xbb0-aexeepp0ev.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\n8sbnzt0sx-xvp3kq03qx.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\xqw78zhhgk-ausgxo2sd3.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\i3zad0jei4-22vffe00uq.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\zxno95zycp-cosvhxvwiu.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nq7isow5xj-qesaa3a1fm.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\zet00eebv3-fvhpjtyr6v.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\t9qb30gx79-tmc1g35s3z.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\283m727s87-fsbi9cje9m.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\jn2yp9sa4w-rxsg74s51o.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\48lnixu25m-ee0r1s7dh0.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\of616ql6sn-q9ht133ko3.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ikk6oqfwu4-jd9uben2k1.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\r1uu4nr89i-gye83jo8yx.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ngg59761m3-r4e9w2rdcm.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\iw7wjzwdog-wl58j5mj3v.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\3cbtikjuie-c2oey78nd0.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\e9k19xld02-d4r6k3f320.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\376ozvll3z-j5mq2jizvt.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\jvdiysrgy9-keugtjm085.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\0oxdsvlq8h-nvvlpmu67g.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\xys2lrdxn6-zub09dkrxp.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\0krgqsuhtu-pj5nd1wqec.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\q1dpb5ei6y-43atpzeawx.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vbzx67wpy6-v0zj4ognzu.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\m6ie76s45u-ynyaa8k90p.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\tc4vvhjczz-hrwsygsryq.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\qu5c76q6q8-c63t5i9ira.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\8smvogc1wq-ft3s53vfgj.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\c9cosh9u5e-4094rpi4f9.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\8xa9eswpi9-6pdc2jztkx.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\9iin982qq5-hd3gran6i8.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vtyoxs3s8e-iovd86k7lj.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\6taqlf1lvo-ltid2c489k.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\4o87z31q84-kbrnm935zg.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\yhxo3wozas-8vyfqsqgz1.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\m96bvep2gz-y7v9cxd14o.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\ubicl942fa-u9q1upor1n.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\bm0qunz9r4-h1s4sie4z3.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\yzajpj9fd9-4d85u1mtcx.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\z306unygqd-0j3bgjxly4.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\e5tafz8qdv-03hjc8e09r.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nxlkwselin-48y08845bh.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\4538cppz44-356vix0kms.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\3jre1yc6wz-83jwlth58m.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\lq7imbe940-mrlpezrjn3.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\inxu5sbegr-worgj0nhwm.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nk2w5ltziu-gk0pw8i4co.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\qp6d949m51-x0q3zqp4vz.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\pubbivt3pb-d6nrnj6jjx.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\qp2nz1hbzv-m9qm4tazc0.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\r8jcppxlzs-ttgo8qnofa.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\cx01as5fxt-jjsuc0puko.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\vy4grc429l-9vr69e8ynj.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\o3bih9g15b-87fc7y1x7t.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\dt81rza4tg-mlv21k5csn.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\uinasj2onz-mb3967wpyd.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\c609oh4frk-mb3967wpyd.gz
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets\msbuild.Proyecto_FinalProgra1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets\msbuild.Proyecto_FinalProgra1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets\msbuild.build.Proyecto_FinalProgra1.props
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Proyecto_FinalProgra1.props
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Proyecto_FinalProgra1.props
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto.32E46CC6.Up2Date
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\refint\Proyecto_FinalProgra1.dll
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.pdb
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.genruntimeconfig.cache
+C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\ref\Proyecto_FinalProgra1.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\CloudinaryDotNet.dll
