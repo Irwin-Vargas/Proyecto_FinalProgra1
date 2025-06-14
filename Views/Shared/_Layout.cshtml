@@ -25,14 +25,17 @@
             display: block;
             margin: 0.75rem 0;
             text-decoration: none;
-            padding: 0.5rem;
-            border-radius: 0.4rem;
-            transition: background 0.2s ease;
+            padding: 0.75rem 1rem;
+            border-radius: 0.6rem;
+            transition: background 0.2s ease, transform 0.2s ease;
+            font-size: 1.1rem;
+            font-weight: bold;
         }
 
         .sidebar a:hover {
             background-color: #cc0000;
-            padding-left: 10px;
+            padding-left: 12px;
+            transform: scale(1.03);
         }
 
         .main-content {
@@ -47,11 +50,14 @@
         .navbar-brand {
             font-weight: bold;
             color: var(--fastfood-white) !important;
+            font-size: 1.5rem;
         }
 
         .navbar-nav .nav-link {
             color: var(--fastfood-white) !important;
-            font-weight: 500;
+            font-weight: 900;
+            font-size: 1.1rem;
+            margin: 0 0.5rem;
         }
 
         .navbar-nav .nav-link.text-warning {
@@ -145,7 +151,6 @@ else
 
     <footer class="footer">
         <div class="container">
-        
             &copy; 2025 - LA Perucha - <a asp-controller="Home" asp-action="Privacy">Política de Privacidad</a>
         </div>
     </footer>
