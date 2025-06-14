@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using Proyecto_FinalProgra1.Data;
 using Proyecto_FinalProgra1.Models;
 using System.Security.Claims;
+using Proyecto_FinalProgra1.MLModels;
 
 namespace Proyecto_FinalProgra1.Controllers
 {
@@ -24,12 +25,17 @@ namespace Proyecto_FinalProgra1.Controllers
         [HttpPost]
         public IActionResult AddReview(int menuItemId, string comment)
         {
+            // Analizar sentimiento usando ML.NET
+            var sentimentResult = SentimentPredictor.Predict(comment);
+
             var review = new Review
             {
                 MenuItemId = menuItemId,
                 UserId = User.FindFirst(ClaimTypes.NameIdentifier).Value,
                 Comment = comment,
-                CreatedAt = DateTime.UtcNow
+                CreatedAt = DateTime.UtcNow,
+                SentimentPositive = sentimentResult.Prediction,
+                SentimentProbability = sentimentResult.Probability
             };
 
             _context.Reviews.Add(review);
