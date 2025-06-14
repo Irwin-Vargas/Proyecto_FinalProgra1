@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Proyecto_FinalProgra1.Data;
+using Proyecto_FinalProgra1.Models.VM;
 
 namespace Proyecto_FinalProgra1.Controllers
 {
@@ -42,6 +43,23 @@ namespace Proyecto_FinalProgra1.Controllers
             ViewBag.TotalCategories = categories.Count;
             ViewBag.TotalStockItems = stocks.Count;
 
+            // --- Resumen de reseñas por producto (IA) ---
+            var resumen = _context.MenuItem
+                .Include(mi => mi.Reviews)
+                .Select(mi => new ReviewsSummaryVM
+                {
+                    Producto = mi.ItemName,
+                    Total = mi.Reviews.Count(),
+                    Positivas = mi.Reviews.Count(r => r.SentimentPositive == true),
+                    Negativas = mi.Reviews.Count(r => r.SentimentPositive == false),
+                    PorcentajePositivas = mi.Reviews.Count() == 0 ? 0 : (int)(100.0 * mi.Reviews.Count(r => r.SentimentPositive == true) / mi.Reviews.Count()),
+                    PorcentajeNegativas = mi.Reviews.Count() == 0 ? 0 : (int)(100.0 * mi.Reviews.Count(r => r.SentimentPositive == false) / mi.Reviews.Count())
+                })
+                .OrderByDescending(x => x.PorcentajePositivas)
+                .ToList();
+
+            ViewBag.ResumenResenias = resumen;
+
             return View();
         }
 
@@ -55,6 +73,5 @@ namespace Proyecto_FinalProgra1.Controllers
 
             return View();
         }
-        
     }
 }
