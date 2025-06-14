@@ -57,12 +57,13 @@ namespace Proyecto_FinalProgra1.Controllers
                     recomendados.Add(item);
             }
 
+bool modoPrueba = true;
 
-            if (!recomendados.Any() && items.Any())
-    {
-        recomendados.Add(items.First());
-    }
-    
+if (!recomendados.Any() && modoPrueba && items.Any())
+{
+    recomendados.Add(items.First());
+}
+
 
             ViewBag.Recomendados = recomendados;
 
