@@ -12,6 +12,9 @@ namespace Proyecto_FinalProgra1.Models
         public int MenuItemId { get; set; }
         public string Comment { get; set; }
         public DateTime CreatedAt { get; set; }
+        public bool? SentimentPositive { get; set; }
+public float? SentimentProbability { get; set; }  
+
 
         // Relaciones
         public MenuItem MenuItem { get; set; }
