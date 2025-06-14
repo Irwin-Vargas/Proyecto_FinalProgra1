@@ -1,5 +1,6 @@
 ﻿@{
-    var isDashboard = ViewContext.RouteData.Values["controller"]?.ToString() == "AdminPanel" && User.IsInRole("Admin");
+    var controller = ViewContext.RouteData.Values["controller"]?.ToString();
+    var isDashboard = User.IsInRole("Admin") && new[] { "AdminPanel", "Resumen", "AdminOrder", "Category", "MenuItem", "Stock" }.Contains(controller);
 }
 
 <!DOCTYPE html>
@@ -97,21 +98,21 @@
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script>
-    function loadContent(url) {
-        $.get(url, function (data) {
-            const content = $('<div>').html(data);
-            const newContent = content.find('#main-content').length ? content.find('#main-content').html() : content;
-            $('#main-content').html(newContent);
+        function loadContent(url) {
+            $.get(url, function (data) {
+                const content = $('<div>').html(data);
+                const newContent = content.find('#main-content').length ? content.find('#main-content').html() : content;
+                $('#main-content').html(newContent);
 
-            const scripts = content.find('script');
-            scripts.each(function () {
-                const script = document.createElement('script');
-                script.text = this.text;
-                document.body.appendChild(script);
+                const scripts = content.find('script');
+                scripts.each(function () {
+                    const script = document.createElement('script');
+                    script.text = this.text;
+                    document.body.appendChild(script);
+                });
             });
-        });
-    }
-</script>
+        }
+    </script>
 
     @await RenderSectionAsync("Scripts", required: false)
 }
@@ -195,7 +196,6 @@ else
                 if (message === "") return;
 
                 let respuesta = "Lo siento, no entendí. ¿Puedes repetirlo?";
-
                 if (message.includes("hola")) respuesta = "¡Hola! ¿Cómo estás?";
                 else if (message.includes("menú") || message.includes("menu")) respuesta = "Puedes ver el menú en la sección superior llamada 'Menú'.";
                 else if (message.includes("precio")) respuesta = "Los precios están junto a cada producto en la página del menú.";
@@ -214,7 +214,6 @@ else
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
 
-    <!-- ChatBot flotante -->
     @await Html.PartialAsync("_ChatBot")
 
     @await RenderSectionAsync("Scripts", required: false)
