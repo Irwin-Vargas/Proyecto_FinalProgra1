@@ -73,5 +73,7 @@ namespace Proyecto_FinalProgra1.Controllers
             TempData["success"] = "Estado actualizado correctamente.";
             return RedirectToAction("Index");
         }
+
+        
     }
 }

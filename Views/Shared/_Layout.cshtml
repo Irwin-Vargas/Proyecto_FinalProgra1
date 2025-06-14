@@ -101,6 +101,7 @@
             $('#main-content').load(url);
         }
     </script>
+    @await RenderSectionAsync("Scripts", required: false)
 }
 else
 {
@@ -156,47 +157,45 @@ else
         </div>
 
         <!-- ChatBot simple sin API -->
-<div id="independent-chatbot" style="position: fixed; bottom: 20px; left: 20px; z-index: 9999; width: 350px;">
-    <button onclick="toggleBotBubble()" style="border-radius: 50%; width: 70px; height: 70px; background-color: purple; border: none; color: white; font-size: 24px;">
-        🤖
-    </button>
-    <div id="bot-bubble" style="display: none; background: #fff; border: 3px solid purple; border-radius: 15px; padding: 1rem; margin-top: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
-        <h5 style="text-align: center; color: purple;">Asistente Simple</h5>
-        <div id="bot-messages" style="height: 220px; overflow-y: auto; border: 1px solid #ccc; padding: 0.5rem; margin-bottom: 10px; font-size: 15px;"></div>
-        <input type="text" id="bot-input" placeholder="Escribe aquí..." class="form-control" style="margin-bottom: 5px;" />
-        <button onclick="sendBotMessage()" class="btn btn-outline-primary w-100">Enviar</button>
-    </div>
-</div>
+        <div id="independent-chatbot" style="position: fixed; bottom: 20px; left: 20px; z-index: 9999; width: 350px;">
+            <button onclick="toggleBotBubble()" style="border-radius: 50%; width: 70px; height: 70px; background-color: purple; border: none; color: white; font-size: 24px;">
+                🤖
+            </button>
+            <div id="bot-bubble" style="display: none; background: #fff; border: 3px solid purple; border-radius: 15px; padding: 1rem; margin-top: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
+                <h5 style="text-align: center; color: purple;">Asistente Simple</h5>
+                <div id="bot-messages" style="height: 220px; overflow-y: auto; border: 1px solid #ccc; padding: 0.5rem; margin-bottom: 10px; font-size: 15px;"></div>
+                <input type="text" id="bot-input" placeholder="Escribe aquí..." class="form-control" style="margin-bottom: 5px;" />
+                <button onclick="sendBotMessage()" class="btn btn-outline-primary w-100">Enviar</button>
+            </div>
+        </div>
 
-<script>
-    function toggleBotBubble() {
-        const bubble = document.getElementById("bot-bubble");
-        bubble.style.display = bubble.style.display === "none" ? "block" : "none";
-    }
+        <script>
+            function toggleBotBubble() {
+                const bubble = document.getElementById("bot-bubble");
+                bubble.style.display = bubble.style.display === "none" ? "block" : "none";
+            }
 
-    function sendBotMessage() {
-        const input = document.getElementById("bot-input");
-        const message = input.value.trim().toLowerCase();
-        const chat = document.getElementById("bot-messages");
+            function sendBotMessage() {
+                const input = document.getElementById("bot-input");
+                const message = input.value.trim().toLowerCase();
+                const chat = document.getElementById("bot-messages");
 
-        if (message === "") return;
+                if (message === "") return;
 
-        let respuesta = "Lo siento, no entendí. ¿Puedes repetirlo?";
+                let respuesta = "Lo siento, no entendí. ¿Puedes repetirlo?";
 
-        if (message.includes("hola")) respuesta = "¡Hola! ¿Cómo estás?";
-        else if (message.includes("menú") || message.includes("menu")) respuesta = "Puedes ver el menú en la sección superior llamada 'Menú'.";
-        else if (message.includes("precio")) respuesta = "Los precios están junto a cada producto en la página del menú.";
-        else if (message.includes("pago")) respuesta = "Aceptamos pagos con tarjeta, PayPal y Yape.";
-        else if (message.includes("gracias")) respuesta = "¡De nada! 😊";
+                if (message.includes("hola")) respuesta = "¡Hola! ¿Cómo estás?";
+                else if (message.includes("menú") || message.includes("menu")) respuesta = "Puedes ver el menú en la sección superior llamada 'Menú'.";
+                else if (message.includes("precio")) respuesta = "Los precios están junto a cada producto en la página del menú.";
+                else if (message.includes("pago")) respuesta = "Aceptamos pagos con tarjeta, PayPal y Yape.";
+                else if (message.includes("gracias")) respuesta = "¡De nada! 😊";
 
-        chat.innerHTML += `<div><strong>Tú:</strong> ${input.value}</div>`;
-        chat.innerHTML += `<div><strong>Bot:</strong> ${respuesta}</div>`;
-        chat.scrollTop = chat.scrollHeight;
-        input.value = "";
-    }
-</script>
-
-
+                chat.innerHTML += `<div><strong>Tú:</strong> ${input.value}</div>`;
+                chat.innerHTML += `<div><strong>Bot:</strong> ${respuesta}</div>`;
+                chat.scrollTop = chat.scrollHeight;
+                input.value = "";
+            }
+        </script>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

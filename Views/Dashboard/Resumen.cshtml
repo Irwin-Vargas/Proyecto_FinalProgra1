@@ -1,6 +1,6 @@
 @{
     ViewData["Title"] = "Resumen del Panel";
-    Layout = null; // No usa _Layout porque ya está embebido en el panel lateral
+    Layout = null;
 }
 
 <h2 class="text-primary">📊 Resumen General</h2>
@@ -14,7 +14,6 @@
             </div>
         </div>
     </div>
-
     <div class="col-md-3">
         <div class="card text-white bg-success mb-3">
             <div class="card-body">
@@ -23,7 +22,6 @@
             </div>
         </div>
     </div>
-
     <div class="col-md-3">
         <div class="card text-white bg-warning mb-3">
             <div class="card-body">
@@ -32,7 +30,6 @@
             </div>
         </div>
     </div>
-
     <div class="col-md-3">
         <div class="card text-white bg-info mb-3">
             <div class="card-body">
@@ -43,4 +40,85 @@
     </div>
 </div>
 
+<!-- BLOQUE DE RESEÑAS CON IA -->
+@using System.Text.Json
+@{
+    var resumen = (List<Proyecto_FinalProgra1.Models.VM.ReviewsSummaryVM>)ViewBag.ResumenResenias ?? new();
+    var productNames = resumen.Select(x => x.Producto).ToArray();
+    var positivePercents = resumen.Select(x => x.PorcentajePositivas).ToArray();
+    var negativePercents = resumen.Select(x => x.PorcentajeNegativas).ToArray();
+}
 
+@if (resumen.Any())
+{
+    <hr />
+    <h3 class="mt-5 mb-3">🧠 Reseñas por producto (IA)</h3>
+    <div class="row">
+        <div class="col-md-8">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Total</th>
+                        <th>Positivas</th>
+                        <th>Negativas</th>
+                        <th>% Positivas</th>
+                        <th>% Negativas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in resumen)
+                {
+                    <tr>
+                        <td>@item.Producto</td>
+                        <td>@item.Total</td>
+                        <td><span class="badge bg-success">@item.Positivas</span></td>
+                        <td><span class="badge bg-danger">@item.Negativas</span></td>
+                        <td><span class="badge bg-success">@item.PorcentajePositivas %</span></td>
+                        <td><span class="badge bg-danger">@item.PorcentajeNegativas %</span></td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <canvas id="sentimentChart" style="min-height: 300px; max-width: 100%;"></canvas>
+        </div>
+    </div>
+
+    <!-- IMPORTANTE: No uses section, usa directo -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('sentimentChart').getContext('2d');
+        const sentimentChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: @Html.Raw(JsonSerializer.Serialize(productNames)),
+                datasets: [
+                    {
+                        label: '% Positivas',
+                        data: @Html.Raw(JsonSerializer.Serialize(positivePercents)),
+                        backgroundColor: 'rgba(25, 135, 84, 0.7)',
+                    },
+                    {
+                        label: '% Negativas',
+                        data: @Html.Raw(JsonSerializer.Serialize(negativePercents)),
+                        backgroundColor: 'rgba(220, 53, 69, 0.7)',
+                    }
+                ]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'top' },
+                    title: { display: true, text: 'Porcentaje de reseñas por producto' }
+                },
+                scales: {
+                    x: { max: 100, beginAtZero: true }
+                }
+            }
+        });
+    </script>
+}

@@ -13,7 +13,7 @@ namespace Proyecto_FinalProgra1.Models
         public string Comment { get; set; }
         public DateTime CreatedAt { get; set; }
         public bool? SentimentPositive { get; set; }
-public float? SentimentProbability { get; set; }  
+        public float? SentimentProbability { get; set; }  
 
 
         // Relaciones
