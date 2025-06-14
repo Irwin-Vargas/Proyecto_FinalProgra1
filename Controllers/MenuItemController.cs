@@ -1,15 +1,17 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Proyecto_FinalProgra1.Data;
 using Proyecto_FinalProgra1.Models;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
+using Proyecto_FinalProgra1.MLModels;
 
 namespace Proyecto_FinalProgra1.Controllers
 {
@@ -17,9 +19,8 @@ namespace Proyecto_FinalProgra1.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _webHostEnvironment;
-        private readonly UserManager<IdentityUser> _userManager; // 1. Inyecta UserManager
+        private readonly UserManager<IdentityUser> _userManager;
 
-        // 2. Modifica el constructor para recibir UserManager
         public MenuItemController(ApplicationDbContext context, IWebHostEnvironment webHostEnvironment, UserManager<IdentityUser> userManager)
         {
             _context = context;
@@ -29,11 +30,45 @@ namespace Proyecto_FinalProgra1.Controllers
 
         public IActionResult Index()
         {
-            var items = _context.MenuItem.Include(c => c.Category).ToList();
+            var items = _context.MenuItem
+                .Include(c => c.Category)
+                .Include(m => m.Reviews)
+                .ToList();
+
+            var recomendados = new List<MenuItem>();
+
+            foreach (var item in items)
+            {
+                var avgRating = item.Reviews.Any() ? (float)item.Reviews.Average(r => r.Rating) : 0f;
+                var reviewCount = item.Reviews.Count;
+                var totalOrders = _context.OrderDetail
+                    .Where(od => od.MenuItemId == item.Id)
+                    .Sum(od => od.Quantity);
+
+                var prediction = ProductPopularityModelBuilder.Predict(new ProductData
+                {
+                    ProductId = item.Id,
+                    AverageRating = avgRating,
+                    ReviewCount = reviewCount,
+                    TotalOrders = totalOrders
+                });
+
+                if (prediction.IsPopular)
+                    recomendados.Add(item);
+            }
+
+
+            if (!recomendados.Any() && items.Any())
+    {
+        recomendados.Add(items.First());
+    }
+    
+
+            ViewBag.Recomendados = recomendados;
+
             return View(items);
         }
 
-        // 3. Modifica Details para armar y pasar el diccionario de nombres
         public IActionResult Details(int id)
         {
             var menuItem = _context.MenuItem
@@ -43,7 +78,6 @@ namespace Proyecto_FinalProgra1.Controllers
 
             if (menuItem == null) return NotFound();
 
-            // Busca UserNames de quienes dejaron reseña
             var userIds = menuItem.Reviews.Select(r => r.UserId).Distinct().ToList();
             var users = _userManager.Users.Where(u => userIds.Contains(u.Id)).ToList();
             var userNameDict = users.ToDictionary(u => u.Id, u => u.UserName);
@@ -83,17 +117,8 @@ namespace Proyecto_FinalProgra1.Controllers
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
-            foreach (var entry in ModelState)
-            {
-                Console.WriteLine($"[ERROR] {entry.Key}:");
-                foreach (var error in entry.Value.Errors)
-                {
-                    Console.WriteLine($"  - {error.ErrorMessage}");
-                }
-            }
 
             ViewBag.CategoryList = new SelectList(_context.Category.ToList(), "Id", "CategoryName", menuItem.CategoryId);
-
             return View(menuItem);
         }
 
@@ -101,6 +126,7 @@ namespace Proyecto_FinalProgra1.Controllers
         public IActionResult Edit(int? id)
         {
             if (id == null) return NotFound();
+
             var item = _context.MenuItem.Find(id);
             if (item == null) return NotFound();
 
@@ -147,6 +173,7 @@ namespace Proyecto_FinalProgra1.Controllers
         public IActionResult Delete(int? id)
         {
             if (id == null) return NotFound();
+
             var item = _context.MenuItem.Include(c => c.Category).FirstOrDefault(x => x.Id == id);
             if (item == null) return NotFound();
 
@@ -174,5 +201,17 @@ namespace Proyecto_FinalProgra1.Controllers
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
+
+
+
+        [Authorize(Roles = "Admin")]
+public IActionResult EntrenarModelo()
+{
+    var trainer = new ProductPopularityTrainer(_context);
+    trainer.TrainAndSaveModel();
+    TempData["success"] = "✅ Modelo entrenado exitosamente con datos reales.";
+    return RedirectToAction("Index");
+}
+
     }
 }

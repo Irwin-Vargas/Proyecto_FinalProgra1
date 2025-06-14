@@ -10,6 +10,42 @@
     <div class="alert alert-success text-center">@TempData["success"]</div>
 }
 
+@if (ViewBag.Recomendados != null && ((List<Proyecto_FinalProgra1.Models.MenuItem>)ViewBag.Recomendados).Any())
+{
+    <div class="mb-5">
+        <h3 class="text-success mb-3">🌟 Recomendados para ti (IA)</h3>
+        <div id="recomendadosCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                @{
+                    var recomendados = (List<Proyecto_FinalProgra1.Models.MenuItem>)ViewBag.Recomendados;
+                    for (int i = 0; i < recomendados.Count; i++)
+                    {
+                        var item = recomendados[i];
+                        <div class="carousel-item @(i == 0 ? "active" : "")">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img src="@item.Image" class="card-img-top" alt="@item.ItemName" style="height: 180px; object-fit: cover;">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">@item.ItemName</h5>
+                                    <p class="card-text">@item.Description</p>
+                                    <a href="@Url.Action("Details", "MenuItem", new { id = item.Id })" class="btn btn-outline-primary btn-sm">Ver detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#recomendadosCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#recomendadosCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+}
+
 @if (User.IsInRole("Admin"))
 {
     <div class="text-end mb-3">
@@ -44,7 +80,6 @@ else
                             <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Editar</a>
                             <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Eliminar</a>
                         </div>
-                        <!-- También pueden ver detalles y reseñas -->
                         <a asp-controller="MenuItem" asp-action="Details" asp-route-id="@item.Id"
                            class="btn btn-outline-primary btn-sm w-100 mt-2">
                             Ver detalles y reseñas
@@ -72,4 +107,8 @@ else
             </div>
         }
     </div>
+}
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 }

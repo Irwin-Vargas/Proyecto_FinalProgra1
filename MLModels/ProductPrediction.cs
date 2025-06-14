@@ -9,9 +9,10 @@ namespace Proyecto_FinalProgra1.MLModels
     public class ProductPrediction
     {
         [ColumnName("PredictedLabel")]
-        public bool EsPopular { get; set; }
+        public bool IsPopular { get; set; }
 
         public float Probability { get; set; }
+
         public float Score { get; set; }
     }
 }

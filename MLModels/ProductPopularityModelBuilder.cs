@@ -4,40 +4,37 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.ML;
 using System.IO;
+using Proyecto_FinalProgra1.MLModels;
 
 namespace Proyecto_FinalProgra1.MLModels
 {
-    public static class ProductPopularityModelBuilder
+    public class ProductPopularityModelBuilder
     {
-        private static readonly string modelPath = Path.Combine("MLModels", "product_popularity_model.zip");
+        private static readonly string modelPath = Path.Combine(Environment.CurrentDirectory, "MLModels", "product_popularity_model.zip");
 
-        public static void TrainModel(IEnumerable<(string Nombre, int Ventas)> datos, int umbral = 10)
+        public static void TrainAndSaveModel(string dataPath)
         {
-            var mlContext = new MLContext();
+            var context = new MLContext();
 
-            var trainingData = datos.Select(d => new ProductData
-            {
-                Ventas = d.Ventas,
-                EsPopular = d.Ventas >= umbral
-            });
+            var data = context.Data.LoadFromTextFile<ProductData>(dataPath, hasHeader: true, separatorChar: ',');
 
-            var dataView = mlContext.Data.LoadFromEnumerable(trainingData);
+            var pipeline = context.Transforms.Concatenate("Features", nameof(ProductData.AverageRating), nameof(ProductData.ReviewCount), nameof(ProductData.TotalOrders))
+                .Append(context.BinaryClassification.Trainers.SdcaLogisticRegression(labelColumnName: "Label", featureColumnName: "Features"));
 
-            var pipeline = mlContext.Transforms.Conversion
-                .MapValueToKey("Label", nameof(ProductData.EsPopular))
-                .Append(mlContext.Transforms.Concatenate("Features", nameof(ProductData.Ventas)))
-                .Append(mlContext.BinaryClassification.Trainers.SdcaLogisticRegression());
+            var model = pipeline.Fit(data);
 
-            var model = pipeline.Fit(dataView);
-
-            mlContext.Model.Save(model, dataView.Schema, modelPath);
+            context.Model.Save(model, data.Schema, modelPath);
         }
 
-        public static PredictionEngine<ProductData, ProductPrediction> LoadPredictionEngine()
+        public static ProductPrediction Predict(ProductData input)
         {
-            var mlContext = new MLContext();
-            var model = mlContext.Model.Load(modelPath, out var schema);
-            return mlContext.Model.CreatePredictionEngine<ProductData, ProductPrediction>(model);
+            var context = new MLContext();
+
+            ITransformer model = context.Model.Load(modelPath, out var schema);
+
+            var predictionEngine = context.Model.CreatePredictionEngine<ProductData, ProductPrediction>(model);
+
+            return predictionEngine.Predict(input);
         }
     }
 }

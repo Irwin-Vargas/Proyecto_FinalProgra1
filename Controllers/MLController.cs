@@ -20,41 +20,33 @@ namespace Proyecto_FinalProgra1.Controllers
             _context = context;
         }
 
-        // ENTRENAMIENTO
+        // Acción para entrenar el modelo con datos reales
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult EntrenarModelo()
         {
-            var datos = _context.OrderDetail
-                .Include(o => o.MenuItem)
-                .GroupBy(o => o.MenuItem.ItemName)
-                .Select(g => new { Nombre = g.Key, Ventas = g.Sum(x => x.Quantity) })
-                .ToList()
-                .Select(d => (d.Nombre, d.Ventas));
+            var trainer = new ProductPopularityTrainer(_context);
+            trainer.TrainAndSaveModel();
 
-            ProductPopularityModelBuilder.TrainModel(datos, umbral: 5); // umbral bajo para testing
-
-            return Content("Modelo entrenado con éxito");
+            TempData["success"] = "✅ Modelo entrenado correctamente con datos reales.";
+            return RedirectToAction("Index", "Home"); // Redirecciona a donde tú prefieras
         }
 
-        // PREDICCIÓN POR NOMBRE
-        public IActionResult PredecirPopularidad(string nombre)
+        // Acción de prueba para predecir (ya la tenías)
+        public IActionResult PredecirPopularidad()
         {
-            var ventas = _context.OrderDetail
-                .Include(o => o.MenuItem)
-                .Where(o => o.MenuItem.ItemName == nombre)
-                .Sum(o => o.Quantity);
-
-            var predictor = ProductPopularityModelBuilder.LoadPredictionEngine();
-
-            var input = new ProductData { Ventas = ventas };
-            var prediction = predictor.Predict(input);
-
-            return Json(new
+            var testProduct = new ProductData
             {
-                Producto = nombre,
-                Ventas = ventas,
-                EsPopular = prediction.EsPopular,
-                Probabilidad = $"{prediction.Probability:P2}"
-            });
+                ProductId = 1,
+                AverageRating = 4.5f,
+                ReviewCount = 25,
+                TotalOrders = 60
+            };
+
+            var resultado = ProductPopularityModelBuilder.Predict(testProduct);
+
+            ViewBag.Resultado = resultado;
+            return View();
         }
     }
 }

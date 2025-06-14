@@ -8789,6 +8789,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.5",
       "Microsoft.Extensions.Configuration.Json >= 9.0.5",
       "Microsoft.ML >= 4.0.2",
+      "Microsoft.ML.DataView >= 4.0.2",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 9.0.0",
       "Newtonsoft.Json >= 13.0.3",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.4"
@@ -8866,6 +8867,10 @@
             "version": "[9.0.5, )"
           },
           "Microsoft.ML": {
+            "target": "Package",
+            "version": "[4.0.2, )"
+          },
+          "Microsoft.ML.DataView": {
             "target": "Package",
             "version": "[4.0.2, )"
           },

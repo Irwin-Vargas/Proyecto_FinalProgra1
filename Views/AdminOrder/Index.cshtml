@@ -5,6 +5,16 @@
 
 <h2>Pedidos</h2>
 
+@if (User.IsInRole("Admin"))
+{
+    <form asp-controller="ML" asp-action="EntrenarModelo" method="post" class="mb-3">
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-success">⚙️ Entrenar modelo de popularidad (ML)</button>
+</form>
+
+}
+
+
 
 <table class="table table-bordered">
     <thead>
