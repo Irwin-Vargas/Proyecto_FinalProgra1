@@ -93,16 +93,15 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
-}else
-{
-    // 👉 Mostrar Swagger solo en desarrollo
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fast Food API v1");
-        c.RoutePrefix = "swagger"; // accedes por /swagger
-    });
 }
+
+// 👉 HABILITAR SWAGGER EN TODOS LOS ENTORNOS
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fast Food API v1");
+    c.RoutePrefix = "swagger"; // accedes por /swagger
+});
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

@@ -1314,3 +1314,7 @@ C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\D
 C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.pdb
 C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.genruntimeconfig.cache
 C:\Users\mathi\Downloads\Proyecto_FinalProgra1ultimo\Proyecto_FinalProgra1\obj\Debug\net9.0\ref\Proyecto_FinalProgra1.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
