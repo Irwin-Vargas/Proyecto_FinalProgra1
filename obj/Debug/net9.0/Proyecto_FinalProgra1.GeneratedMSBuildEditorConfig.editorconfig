@@ -200,6 +200,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5PcmRlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Universidad/Semestre 6/Programacion 1/Nueva carpeta (3)/Proyecto_FinalProgra1/Views/AdminPanel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Universidad/Semestre 6/Programacion 1/Nueva carpeta (3)/Proyecto_FinalProgra1/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -214,14 +218,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Universidad/Semestre 6/Programacion 1/Nueva carpeta (3)/Proyecto_FinalProgra1/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Universidad/Semestre 6/Programacion 1/Nueva carpeta (3)/Proyecto_FinalProgra1/Views/Dashboard/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Universidad/Semestre 6/Programacion 1/Nueva carpeta (3)/Proyecto_FinalProgra1/Views/Dashboard/Resumen.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFJlc3VtZW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Universidad/Semestre 6/Programacion 1/Nueva carpeta (3)/Proyecto_FinalProgra1/Views/Home/Index.cshtml]
@@ -262,6 +258,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Universidad/Semestre 6/Programacion 1/Nueva carpeta (3)/Proyecto_FinalProgra1/Views/Order/MyOrders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcTXlPcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Universidad/Semestre 6/Programacion 1/Nueva carpeta (3)/Proyecto_FinalProgra1/Views/Resumen/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1lblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Universidad/Semestre 6/Programacion 1/Nueva carpeta (3)/Proyecto_FinalProgra1/Views/Shared/Error.cshtml]

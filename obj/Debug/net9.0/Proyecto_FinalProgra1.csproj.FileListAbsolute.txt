@@ -337,7 +337,6 @@ D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1
 D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
-D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\2vq28k8zjp-f118m0uj92.gz
 D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\6zgx8s5axt-61n19gt1b8.gz
 D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\letirb5ita-xtxxf3hu2r.gz
 D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\w0nzj2duif-t1cqhe9u97.gz
@@ -856,3 +855,11 @@ D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1
 D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-arm64\native\LdaNative.dll
 D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x64\native\LdaNative.dll
 D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x86\native\LdaNative.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.FastTree.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-x64\native\libFastTreeNative.so
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-x64\native\libFastTreeNative.so.dbg
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-x64\native\libFastTreeNative.dylib
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-x64\native\libFastTreeNative.dylib.dwarf
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x64\native\FastTreeNative.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x86\native\FastTreeNative.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\obj\Debug\net9.0\compressed\2vq28k8zjp-g7900ry4n9.gz

@@ -1,5 +1,5 @@
 ﻿@{
-    var isDashboard = ViewContext.RouteData.Values["controller"]?.ToString() == "Dashboard" && User.IsInRole("Admin");
+    var isDashboard = ViewContext.RouteData.Values["controller"]?.ToString() == "AdminPanel" && User.IsInRole("Admin");
 }
 
 <!DOCTYPE html>
@@ -82,7 +82,7 @@
     <div class="d-flex">
         <div class="sidebar">
             <h5 class="text-warning">Admin Panel</h5>
-            <a href="#" onclick="loadContent('/Dashboard/Resumen')">📊 Resumen</a>
+            <a href="#" onclick="loadContent('/Resumen/Index')">📊 Resumen</a>
             <a href="#" onclick="loadContent('/AdminOrder/Index')">🧾 Pedidos</a>
             <a href="#" onclick="loadContent('/Category/Index')">📂 Categorías</a>
             <a href="#" onclick="loadContent('/MenuItem/Index')">🍔 Productos</a>
@@ -97,10 +97,22 @@
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script>
-        function loadContent(url) {
-            $('#main-content').load(url);
-        }
-    </script>
+    function loadContent(url) {
+        $.get(url, function (data) {
+            const content = $('<div>').html(data);
+            const newContent = content.find('#main-content').length ? content.find('#main-content').html() : content;
+            $('#main-content').html(newContent);
+
+            const scripts = content.find('script');
+            scripts.each(function () {
+                const script = document.createElement('script');
+                script.text = this.text;
+                document.body.appendChild(script);
+            });
+        });
+    }
+</script>
+
     @await RenderSectionAsync("Scripts", required: false)
 }
 else
@@ -133,7 +145,7 @@ else
                         @if (User.IsInRole("Admin"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-warning" asp-controller="Dashboard" asp-action="Index">Panel Admin</a>
+                                <a class="nav-link text-warning" asp-controller="AdminPanel" asp-action="Index">Panel Admin</a>
                             </li>
                         }
                     </ul>

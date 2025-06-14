@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yWWwBaT0EuE=",
+  "dgSpecHash": "EQqFonqokGE=",
   "success": true,
   "projectFilePath": "D:\\Universidad\\Semestre 6\\Programacion 1\\Nueva carpeta (3)\\Proyecto_FinalProgra1\\Proyecto_FinalProgra1.csproj",
   "expectedPackageFiles": [
@@ -119,6 +119,7 @@
     "C:\\Users\\vilca\\.nuget\\packages\\microsoft.ml\\4.0.2\\microsoft.ml.4.0.2.nupkg.sha512",
     "C:\\Users\\vilca\\.nuget\\packages\\microsoft.ml.cpumath\\4.0.2\\microsoft.ml.cpumath.4.0.2.nupkg.sha512",
     "C:\\Users\\vilca\\.nuget\\packages\\microsoft.ml.dataview\\4.0.2\\microsoft.ml.dataview.4.0.2.nupkg.sha512",
+    "C:\\Users\\vilca\\.nuget\\packages\\microsoft.ml.fasttree\\4.0.2\\microsoft.ml.fasttree.4.0.2.nupkg.sha512",
     "C:\\Users\\vilca\\.nuget\\packages\\microsoft.net.stringtools\\17.10.4\\microsoft.net.stringtools.17.10.4.nupkg.sha512",
     "C:\\Users\\vilca\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\vilca\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

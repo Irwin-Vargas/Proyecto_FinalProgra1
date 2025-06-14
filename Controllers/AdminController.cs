@@ -11,6 +11,8 @@ using Proyecto_FinalProgra1.Data;
 using Proyecto_FinalProgra1.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Proyecto_FinalProgra1.MLModels;
+using Microsoft.ML;
+
 
 namespace Proyecto_FinalProgra1.Controllers
 {
@@ -73,6 +75,9 @@ namespace Proyecto_FinalProgra1.Controllers
             TempData["success"] = "Estado actualizado correctamente.";
             return RedirectToAction("Index");
         }
+
+
+
 
         
     }
