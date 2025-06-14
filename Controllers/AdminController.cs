@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Proyecto_FinalProgra1.Data;
 using Proyecto_FinalProgra1.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
-
+using Proyecto_FinalProgra1.MLModels;
 
 namespace Proyecto_FinalProgra1.Controllers
 {

@@ -834,3 +834,25 @@ C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\n
 C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.pdb
 C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\Proyecto_FinalProgra1.genruntimeconfig.cache
 C:\Users\mathi\Downloads\Proyecto final Progra\Proyecto_FinalProgra1\obj\Debug\net9.0\ref\Proyecto_FinalProgra1.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.Core.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.Data.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.KMeansClustering.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.PCA.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.StandardTrainers.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.Transforms.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.CpuMath.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\Microsoft.ML.DataView.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\System.Numerics.Tensors.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-arm\native\libLdaNative.so
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-arm\native\libLdaNative.so.dbg
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-arm64\native\libLdaNative.so
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-arm64\native\libLdaNative.so.dbg
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-x64\native\libLdaNative.so
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\linux-x64\native\libLdaNative.so.dbg
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-arm64\native\libLdaNative.dylib
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-arm64\native\libLdaNative.dylib.dwarf
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-x64\native\libLdaNative.dylib
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\osx-x64\native\libLdaNative.dylib.dwarf
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-arm64\native\LdaNative.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x64\native\LdaNative.dll
+D:\Universidad\Semestre 6\Programacion 1\Nueva carpeta (3)\Proyecto_FinalProgra1\bin\Debug\net9.0\runtimes\win-x86\native\LdaNative.dll
