@@ -40,6 +40,12 @@
                             <li class="list-group-item">
                                 <span class="fw-bold">@userName</span>
                                 <span class="text-muted">(@review.CreatedAt.ToShortDateString())</span>
+                                @if (review.SentimentPositive != null)
+                                {
+                                    <span class="ms-2 badge @(review.SentimentPositive.Value ? "bg-success" : "bg-danger")">
+                                        @(review.SentimentPositive.Value ? "Positiva" : "Negativa")
+                                    </span>
+                                }
                                 <br />
                                 <span>@review.Comment</span>
                             </li>
