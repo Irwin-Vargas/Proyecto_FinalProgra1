@@ -40,7 +40,7 @@
     </div>
 </div>
 
-<!-- BLOQUE DE RESEÑAS CON IA -->
+<!-- Reseñas con IA -->
 @using System.Text.Json
 @{
     var resumen = (List<Proyecto_FinalProgra1.Models.VM.ReviewsSummaryVM>)ViewBag.ResumenResenias ?? new();
@@ -82,43 +82,103 @@
             </table>
         </div>
         <div class="col-md-4">
-            <canvas id="sentimentChart" style="min-height: 300px; max-width: 100%;"></canvas>
+            <canvas id="sentimentChart" style="min-height: 300px;"></canvas>
         </div>
     </div>
+}
 
-    <!-- IMPORTANTE: No uses section, usa directo -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script>
-        const ctx = document.getElementById('sentimentChart').getContext('2d');
-        const sentimentChart = new Chart(ctx, {
+<!-- Ventas por producto -->
+@if (ViewBag.TopVentas != null && ViewBag.TopVentas.Count > 0)
+{
+    <hr />
+    <h3 class="mt-5 mb-3">🔥 Top 5 productos más vendidos</h3>
+    <div class="row">
+        <div class="col-md-8">
+            <table class="table table-bordered">
+                <thead><tr><th>Producto</th><th>Cantidad Vendida</th></tr></thead>
+                <tbody>
+                @foreach (var item in ViewBag.TopVentas)
+                {
+                    <tr><td>@item.Producto</td><td>@item.Total</td></tr>
+                }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <canvas id="topVentasChart"></canvas>
+        </div>
+    </div>
+}
+
+@if (ViewBag.MenosVentas != null && ViewBag.MenosVentas.Count > 0)
+{
+    <hr />
+    <h3 class="mt-5 mb-3">📉 Productos con menos ventas</h3>
+    <div class="row">
+        <div class="col-md-8">
+            <table class="table table-bordered">
+                <thead><tr><th>Producto</th><th>Cantidad Vendida</th></tr></thead>
+                <tbody>
+                @foreach (var item in ViewBag.MenosVentas)
+                {
+                    <tr><td>@item.Producto</td><td>@item.Total</td></tr>
+                }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <canvas id="menosVentasChart"></canvas>
+        </div>
+    </div>
+}
+
+<!-- Scripts de gráficos -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const parseJson = (data) => JSON.parse('@Html.Raw(JsonSerializer.Serialize(data))');
+
+    const renderBarChart = (ctxId, labels, data, color, title) => {
+        const ctx = document.getElementById(ctxId).getContext('2d');
+        new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: @Html.Raw(JsonSerializer.Serialize(productNames)),
-                datasets: [
-                    {
-                        label: '% Positivas',
-                        data: @Html.Raw(JsonSerializer.Serialize(positivePercents)),
-                        backgroundColor: 'rgba(25, 135, 84, 0.7)',
-                    },
-                    {
-                        label: '% Negativas',
-                        data: @Html.Raw(JsonSerializer.Serialize(negativePercents)),
-                        backgroundColor: 'rgba(220, 53, 69, 0.7)',
-                    }
-                ]
+                labels: labels,
+                datasets: [{
+                    label: title,
+                    data: data,
+                    backgroundColor: color
+                }]
             },
             options: {
                 indexAxis: 'y',
                 responsive: true,
                 maintainAspectRatio: false,
                 plugins: {
-                    legend: { position: 'top' },
-                    title: { display: true, text: 'Porcentaje de reseñas por producto' }
+                    legend: { display: false },
+                    title: { display: true, text: title }
                 },
                 scales: {
-                    x: { max: 100, beginAtZero: true }
+                    x: { beginAtZero: true, ticks: { precision: 0 } }
                 }
             }
         });
-    </script>
-}
+    };
+
+    renderBarChart('sentimentChart',
+        parseJson(@Html.Raw(JsonSerializer.Serialize(productNames))),
+        parseJson(@Html.Raw(JsonSerializer.Serialize(positivePercents))),
+        'rgba(25, 135, 84, 0.7)',
+        '% Reseñas Positivas');
+
+    renderBarChart('topVentasChart',
+        parseJson(@Html.Raw(JsonSerializer.Serialize(ViewBag.TopVentas.Select(x => x.Producto)))),
+        parseJson(@Html.Raw(JsonSerializer.Serialize(ViewBag.TopVentas.Select(x => x.Total)))),
+        'rgba(0,123,255,0.7)',
+        'Top 5 más vendidos');
+
+    renderBarChart('menosVentasChart',
+        parseJson(@Html.Raw(JsonSerializer.Serialize(ViewBag.MenosVentas.Select(x => x.Producto)))),
+        parseJson(@Html.Raw(JsonSerializer.Serialize(ViewBag.MenosVentas.Select(x => x.Total)))),
+        'rgba(255,99,132,0.7)',
+        'Menos vendidos');
+</script>

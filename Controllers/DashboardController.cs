@@ -66,31 +66,46 @@ namespace Proyecto_FinalProgra1.Controllers
         }
 
         public IActionResult Resumen()
+{
+    ViewBag.TotalPedidos = _context.Order.Count();
+    ViewBag.Pendientes = _context.Order.Count(o => o.OrderStatusId == 1);
+    ViewBag.Productos = _context.MenuItem.Count();
+    ViewBag.Categorias = _context.Category.Count();
+    ViewBag.Stock = _context.Stock.Count();
+
+    // --- Resumen de reseñas por producto (IA) ---
+    var resumen = _context.MenuItem
+        .Include(mi => mi.Reviews)
+        .Select(mi => new ReviewsSummaryVM
         {
-            ViewBag.TotalPedidos = _context.Order.Count();
-            ViewBag.Pendientes = _context.Order.Count(o => o.OrderStatusId == 1);
-            ViewBag.Productos = _context.MenuItem.Count();
-            ViewBag.Categorias = _context.Category.Count();
-            ViewBag.Stock = _context.Stock.Count();
+            Producto = mi.ItemName,
+            Total = mi.Reviews.Count(),
+            Positivas = mi.Reviews.Count(r => r.SentimentPositive == true),
+            Negativas = mi.Reviews.Count(r => r.SentimentPositive == false),
+            PorcentajePositivas = mi.Reviews.Count() == 0 ? 0 :
+                (int)(100.0 * mi.Reviews.Count(r => r.SentimentPositive == true) / mi.Reviews.Count()),
+            PorcentajeNegativas = mi.Reviews.Count() == 0 ? 0 :
+                (int)(100.0 * mi.Reviews.Count(r => r.SentimentPositive == false) / mi.Reviews.Count())
+        })
+        .OrderByDescending(x => x.PorcentajePositivas)
+        .ToList();
 
-            // --- Resumen de reseñas por producto (IA) ---
-            var resumen = _context.MenuItem
-                .Include(mi => mi.Reviews)
-                .Select(mi => new ReviewsSummaryVM
-                {
-                    Producto = mi.ItemName,
-                    Total = mi.Reviews.Count(),
-                    Positivas = mi.Reviews.Count(r => r.SentimentPositive == true),
-                    Negativas = mi.Reviews.Count(r => r.SentimentPositive == false),
-                    PorcentajePositivas = mi.Reviews.Count() == 0 ? 0 : (int)(100.0 * mi.Reviews.Count(r => r.SentimentPositive == true) / mi.Reviews.Count()),
-                    PorcentajeNegativas = mi.Reviews.Count() == 0 ? 0 : (int)(100.0 * mi.Reviews.Count(r => r.SentimentPositive == false) / mi.Reviews.Count())
-                })
-                .OrderByDescending(x => x.PorcentajePositivas)
-                .ToList();
+    // --- Productos más vendidos (TOP 5) ---
+    var topVentas = _context.OrderDetail
+        .Include(od => od.MenuItem)
+        .GroupBy(od => od.MenuItem.ItemName)
+        .Select(g => new {
+            Producto = g.Key,
+            Total = g.Sum(x => x.Quantity)
+        })
+        .OrderByDescending(x => x.Total)
+        .Take(5)
+        .ToList();
 
-            ViewBag.ResumenResenias = resumen;
+    ViewBag.ResumenResenias = resumen;
+    ViewBag.TopVentas = topVentas;
 
-            return View();
-        }
+    return View();
+}
     }
 }
