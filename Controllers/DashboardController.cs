@@ -94,7 +94,8 @@ namespace Proyecto_FinalProgra1.Controllers
     var topVentas = _context.OrderDetail
         .Include(od => od.MenuItem)
         .GroupBy(od => od.MenuItem.ItemName)
-        .Select(g => new {
+        .Select(g => new TopVentasVM
+        {
             Producto = g.Key,
             Total = g.Sum(x => x.Quantity)
         })
@@ -107,5 +108,6 @@ namespace Proyecto_FinalProgra1.Controllers
 
     return View();
 }
+
     }
 }
