@@ -45,11 +45,11 @@
         <span asp-validation-for="Price" class="text-danger"></span>
     </div>
 
-    <<div class="mb-3">
-    <label asp-for="Image" class="form-label">Ruta de la imagen</label>
-    <input asp-for="Image" class="form-control" value="/images/HBnomal.jpeg" />
-    <span asp-validation-for="Image" class="text-danger"></span>
-    </div>
+    <div class="mb-3">
+    <label class="form-label">Imagen del producto</label>
+    <input type="file" name="imageFile" class="form-control" accept="image/*" />
+</div>
+
 
 
 

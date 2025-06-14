@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Http;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
 using Microsoft.OpenApi.Models; 
+using CloudinaryDotNet;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +17,8 @@ PayPalService.Configure(builder.Configuration);
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddHttpClient<GeolocationService>();
+builder.Services.AddSingleton<Proyecto_FinalProgra1.Services.CloudinaryService>();
+
 
 // 👉 Swagger config
 builder.Services.AddEndpointsApiExplorer();

@@ -1,9 +1,7 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -12,20 +10,25 @@ using Microsoft.EntityFrameworkCore;
 using Proyecto_FinalProgra1.Data;
 using Proyecto_FinalProgra1.Models;
 using Proyecto_FinalProgra1.MLModels;
+using Proyecto_FinalProgra1.Services; // <--- IMPORTANTE
 
 namespace Proyecto_FinalProgra1.Controllers
 {
     public class MenuItemController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly UserManager<IdentityUser> _userManager;
+        private readonly CloudinaryService _cloudinaryService; // <--- IMPORTANTE
 
-        public MenuItemController(ApplicationDbContext context, IWebHostEnvironment webHostEnvironment, UserManager<IdentityUser> userManager)
+        // Inyecta CloudinaryService aquí (y quita IWebHostEnvironment)
+        public MenuItemController(
+            ApplicationDbContext context,
+            UserManager<IdentityUser> userManager,
+            CloudinaryService cloudinaryService)
         {
             _context = context;
-            _webHostEnvironment = webHostEnvironment;
             _userManager = userManager;
+            _cloudinaryService = cloudinaryService;
         }
 
         public IActionResult Index()
@@ -57,13 +60,12 @@ namespace Proyecto_FinalProgra1.Controllers
                     recomendados.Add(item);
             }
 
-bool modoPrueba = true;
+            bool modoPrueba = true;
 
-if (!recomendados.Any() && modoPrueba && items.Any())
-{
-    recomendados.Add(items.First());
-}
-
+            if (!recomendados.Any() && modoPrueba && items.Any())
+            {
+                recomendados.Add(items.First());
+            }
 
             ViewBag.Recomendados = recomendados;
 
@@ -98,20 +100,15 @@ if (!recomendados.Any() && modoPrueba && items.Any())
         [HttpPost]
         [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(MenuItem menuItem, IFormFile? imageFile)
+        public async Task<IActionResult> Create(MenuItem menuItem, IFormFile? imageFile)
         {
             if (ModelState.IsValid)
             {
                 if (imageFile != null)
                 {
-                    string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images");
-                    string uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
-                    string filePath = Path.Combine(uploadsFolder, uniqueFileName);
-
-                    using var fileStream = new FileStream(filePath, FileMode.Create);
-                    imageFile.CopyTo(fileStream);
-
-                    menuItem.Image = "/images/" + uniqueFileName;
+                    // Sube la imagen a Cloudinary
+                    var urlImagen = await _cloudinaryService.UploadImageAsync(imageFile);
+                    menuItem.Image = urlImagen;
                 }
 
                 _context.MenuItem.Add(menuItem);
@@ -138,7 +135,7 @@ if (!recomendados.Any() && modoPrueba && items.Any())
         [HttpPost]
         [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(MenuItem menuItem, IFormFile? imageFile)
+        public async Task<IActionResult> Edit(MenuItem menuItem, IFormFile? imageFile)
         {
             if (ModelState.IsValid)
             {
@@ -147,17 +144,13 @@ if (!recomendados.Any() && modoPrueba && items.Any())
 
                 if (imageFile != null)
                 {
-                    string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images");
-                    string uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
-                    string filePath = Path.Combine(uploadsFolder, uniqueFileName);
-
-                    using var fileStream = new FileStream(filePath, FileMode.Create);
-                    imageFile.CopyTo(fileStream);
-
-                    menuItem.Image = "/images/" + uniqueFileName;
+                    // Sube la imagen nueva a Cloudinary
+                    var urlImagen = await _cloudinaryService.UploadImageAsync(imageFile);
+                    menuItem.Image = urlImagen;
                 }
                 else
                 {
+                    // Si no se sube imagen nueva, conserva la anterior
                     menuItem.Image = itemFromDb.Image;
                 }
 
@@ -189,30 +182,19 @@ if (!recomendados.Any() && modoPrueba && items.Any())
             var item = _context.MenuItem.Find(id);
             if (item == null) return NotFound();
 
-            if (!string.IsNullOrEmpty(item.Image))
-            {
-                var imagePath = Path.Combine(_webHostEnvironment.WebRootPath, item.Image.TrimStart('/'));
-                if (System.IO.File.Exists(imagePath))
-                {
-                    System.IO.File.Delete(imagePath);
-                }
-            }
-
+            // (Opcional: Puedes eliminar de Cloudinary si lo deseas, pero no es obligatorio)
             _context.MenuItem.Remove(item);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
 
-
-
         [Authorize(Roles = "Admin")]
-public IActionResult EntrenarModelo()
-{
-    var trainer = new ProductPopularityTrainer(_context);
-    trainer.TrainAndSaveModel();
-    TempData["success"] = "✅ Modelo entrenado exitosamente con datos reales.";
-    return RedirectToAction("Index");
-}
-
+        public IActionResult EntrenarModelo()
+        {
+            var trainer = new ProductPopularityTrainer(_context);
+            trainer.TrainAndSaveModel();
+            TempData["success"] = "✅ Modelo entrenado exitosamente con datos reales.";
+            return RedirectToAction("Index");
+        }
     }
 }
