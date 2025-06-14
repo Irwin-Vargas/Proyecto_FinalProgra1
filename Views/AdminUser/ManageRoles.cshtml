@@ -1,0 +1,27 @@
+@using Proyecto_FinalProgra1.Models.VM
+@model ManageRolesVM
+
+<h2 class="text-primary">Administrar Roles para @Model.Email</h2>
+
+<form asp-action="UpdateRoles" method="post">
+    <input type="hidden" asp-for="UserId" />
+    <input type="hidden" asp-for="Email" />
+
+    <div class="mb-4">
+        @for (int i = 0; i < Model.Roles.Count; i++)
+        {
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox"
+                       asp-for="Roles[i].IsSelected"
+                       id="role_@i" />
+                <label class="form-check-label" for="role_@i">
+                    @Model.Roles[i].RoleName
+                </label>
+                <input type="hidden" asp-for="Roles[i].RoleName" />
+            </div>
+        }
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar Cambios</button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Cancelar</a>
+</form>

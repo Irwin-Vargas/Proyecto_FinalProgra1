@@ -1,0 +1,54 @@
+@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityUser>
+@{
+    ViewData["Title"] = "Usuarios del Sistema";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-primary mb-4">👤 Gestión de Usuarios</h2>
+
+<table class="table table-bordered table-hover">
+    <thead class="table-light">
+        <tr>
+            <th>Email</th>
+            <th>Confirmado</th>
+            <th>Bloqueado</th>
+            <th>Roles</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>@(user.EmailConfirmed ? "✅" : "❌")</td>
+                <td>@(user.LockoutEnd != null && user.LockoutEnd > DateTime.UtcNow ? "🔒 Sí" : "🔓 No")</td>
+                <td>
+                    <a class="btn btn-sm btn-outline-warning" asp-action="ManageRoles" asp-route-userId="@user.Id">🔧 Roles</a>
+                </td>
+                <td>
+                    <div class="btn-group">
+                        @if (user.LockoutEnd != null && user.LockoutEnd > DateTime.UtcNow)
+                        {
+                            <form asp-action="UnlockUser" method="post">
+                                <input type="hidden" name="userId" value="@user.Id" />
+                                <button type="submit" class="btn btn-sm btn-success">Desbloquear</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <form asp-action="LockUser" method="post">
+                                <input type="hidden" name="userId" value="@user.Id" />
+                                <button type="submit" class="btn btn-sm btn-warning">Bloquear</button>
+                            </form>
+                        }
+                        <form asp-action="DeleteUser" method="post" onsubmit="return confirm('¿Estás seguro de eliminar este usuario?');">
+                            <input type="hidden" name="userId" value="@user.Id" />
+                            <button type="submit" class="btn btn-sm btn-danger ms-2">Eliminar</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

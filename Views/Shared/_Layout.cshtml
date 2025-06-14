@@ -1,6 +1,6 @@
 ﻿@{
     var controller = ViewContext.RouteData.Values["controller"]?.ToString();
-    var isDashboard = User.IsInRole("Admin") && new[] { "AdminPanel", "Resumen", "AdminOrder", "Category", "MenuItem", "Stock" }.Contains(controller);
+    var isDashboard = User.IsInRole("Admin") && new[] { "AdminPanel", "Resumen", "AdminOrder", "Category", "MenuItem", "Stock", "AdminUser"}.Contains(controller);
 }
 
 <!DOCTYPE html>
@@ -88,6 +88,7 @@
             <a href="#" onclick="loadContent('/Category/Index')">📂 Categorías</a>
             <a href="#" onclick="loadContent('/MenuItem/Index')">🍔 Productos</a>
             <a href="#" onclick="loadContent('/Stock/Index')">📦 Stock</a>
+            <a href="#" onclick="loadContent('/AdminUser/Index')">📦 AdminUser</a>
             <hr />
             <a href="/" class="text-warning">⬅ Volver al sitio</a>
         </div>
